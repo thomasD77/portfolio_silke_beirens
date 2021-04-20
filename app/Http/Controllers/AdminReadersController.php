@@ -1,0 +1,121 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Exports\ReaderExport;
+use App\Http\Requests\NewsletterRequest;
+use App\Models\Reader;
+use App\Models\Review;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
+use Maatwebsite\Excel\Facades\Excel;
+
+
+class AdminReadersController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index(Request $request)
+    {
+        //
+        $readers = Reader::latest()->paginate(10);
+
+        /*if($request->has('download')) {
+            $excel = Excel::download('admin.readers.xls');
+            return $excel->download('email_list_subscribers.xlsx');
+        }*/
+        return view('admin.readers.index', compact('readers'));
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(request $request)
+    {
+        //
+
+            if($request->newsletter != null){
+
+                $data =[
+                    'email'=>$request->newsletter,
+                ];
+                Reader::create($data);
+                Session::flash('readers_message', 'Thanks! You signed up for our Newsletter');
+            }else{
+                return Redirect::to('http://localhost/portfolio_silke/public/' . "#form");
+            }
+
+
+
+
+        return Redirect::to('http://localhost/portfolio_silke/public/' . "#form");
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        //
+    }
+
+    public function export()
+    {
+        return Excel::download(new ReaderExport(), 'email_list_newsletter.xlsx');
+    }
+}
