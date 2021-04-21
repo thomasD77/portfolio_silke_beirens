@@ -10,6 +10,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/front-app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" integrity="sha512-nIm/JGUwrzblLex/meoxJSPdAKQOe2bLhnrZ81g5Jbh519z8GFJIWu87WAhBH+RAyGbM4+U3S2h+kL5JoV6/wA==" crossorigin="anonymous" />
 </head>
 <body>
 
@@ -61,9 +62,8 @@
         </div>
     </div>
 
-
-
 </header>
+
 
 
 <main class="container-fluid">
@@ -93,50 +93,7 @@
                 </div>
         </div>
     </div>
-    <div id="socials" class="row">
-        <h2 class="mt-5 text-center text-uppercase">OUR SOCIALS</h2>
-        <p class="text-center">@divemaster_socials</p>
-        <div class="col-12 col-lg-8 offset-lg-2">
-            <div class="row my-5">
-                <div class="col-12 col-lg-3 socialparent px-0 mx-0">
-                    <img class="img-fluid" src="{{asset('images/frontend/animal.jpeg')}}" alt="animal"/>
-                    <div class="social-content facebook">
-                        <ul class="icon p-0 m-0">
-                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=www.hln.be&display=popup"><i class="fab fa-facebook"></i></a>
-                                <p class="text-white">Share this</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 socialparent px-0 mx-0">
-                    <img class="img-fluid" src="{{asset('images/frontend/jumper.jpeg')}}" alt="animal"/>
-                    <div class="social-content instagram">
-                        <ul class="icon p-0 m-0">
-                            <li><a href="https://www.instagram.com/?url=https://www.hln.be/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                                <p class="text-white">Share this</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 socialparent px-0 mx-0">
-                    <img class="img-fluid" src="{{asset('images/frontend/diving.jpeg')}}" alt="animal"/>
-                    <div class="social-content twitter">
-                        <ul class="icon p-0 m-0">
-                            <li><a href="https://twitter.com/share?url=www.hln.be&text=title" rel="me" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                                <p class="text-white">Share this</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 socialparent px-0 mx-0">
-                    <img class="img-fluid" src="{{asset('images/frontend/snorkel.jpeg')}}" alt="snorkel"/>
-                    <div class="social-content youtube">
-                        <ul class="icon p-0 m-0">
-                            <li><a href="https://www.youtube.com" rel="me" target="_blank"><i class="fab fa-youtube"></i></a>
-                                <p class="text-white">Share this</p></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <div class="gegevens row pt-5">
         <div class="col-12 col-lg-8 offset-lg-2">
             <div class="row">
@@ -176,6 +133,11 @@
             </div>
         </div>
     </div>
+
+    <div id="socials" class="container my-5">
+        <div id="instafeed-container" class="row gallery"></div>
+    </div>
+
 </main>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up mx-2"></i></button>
@@ -211,7 +173,8 @@
         </div>
     </div>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 <script src="{{asset('js/front-app.js')}}"></script>
 <script>
     //Get the button:

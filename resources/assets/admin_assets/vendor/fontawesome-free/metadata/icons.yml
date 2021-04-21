@@ -10807,7 +10807,7 @@ instagram:
   changes:
     - '4.6'
     - 5.0.0
-  label: Instagram
+  label: instagram
   search:
     terms: []
   styles:
@@ -10818,7 +10818,7 @@ instagram-square:
   changes:
     - 5.12.1
     - 5.14.0
-  label: Instagram Square
+  label: instagram Square
   search:
     terms: []
   styles:
