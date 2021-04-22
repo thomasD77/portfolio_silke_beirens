@@ -1,11 +1,8 @@
-@extends('layouts.admin_template')
+@extends('layouts.admin_crud_template')
 @section('content')
-    <h1>Create Post</h1>
+    <h1 class="my-4"><span class="badge mosgroen display-1 shadow"><i class="fas fa-blog mr-2"></i>Create Post</span></h1>
+
     {!! Form::open(['method'=>'POST', 'action'=>'App\Http\Controllers\AdminPostsController@store','files'=>true]) !!}
-    <div class="form-group">
-        {!! Form::label('Select Name: ')!!}
-        {!! Form::select('users[]',$users,null,['class'=>'form-control'])!!}
-    </div>
     <div class="form-group">
         {!! Form::label('title', 'Title:') !!}
         {!! Form::text('title',null,['class'=>'form-control']) !!}
@@ -14,12 +11,8 @@
         {!! Form::label('Select Category: ')!!}
         {!! Form::select('postcategories[]',$postcategories,null,['class'=>'form-control'])!!}
     </div>
-    {{--<div class="form-group">
-        {!! Form::label('Select Tag: ')!!}
-        {!! Form::select('tag_id[]',$tags,null,['class'=>'form-control', 'multiple'=>'multiple'])!!}
-    </div>--}}
     <div class="form-group">
-        {!! Form::label('body', 'Body:') !!}
+        {!! Form::label('body', 'Description:') !!}
         {!! Form::textarea('body',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
@@ -27,6 +20,6 @@
         {!! Form::file('photo_id',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-    {!! Form::submit('Create Post',['class'=>'btn btn-primary']) !!}
+    {!! Form::submit('Create Post',['class'=>'btn btn-dark']) !!}
     {!! Form::close() !!}
 @stop

@@ -29,7 +29,6 @@ class UserRequest extends FormRequest
             'username'=>'required|string',
             'email'=>'required|email|unique:users',
             'roles'=>'required',
-            'is_active'=>'required',
         ];
     }
 
@@ -38,7 +37,6 @@ class UserRequest extends FormRequest
             'email.required'=> 'E-mail is required',
             'name.required' => 'Name is required',
             'username.required' => 'Username is required',
-            'is_active.required' => 'Status is required',
         ];
     }
 }

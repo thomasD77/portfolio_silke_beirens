@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Post;
 use App\Models\PostCategory;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class AdminPostCategoriesController extends Controller
 {
@@ -16,7 +17,7 @@ class AdminPostCategoriesController extends Controller
     public function index()
     {
         //
-        $postcategories = PostCategory::paginate(10);
+        $postcategories = PostCategory::withTrashed()->paginate(10);
         return view('admin.postcategories.index', compact('postcategories'));
     }
 
@@ -92,5 +93,20 @@ class AdminPostCategoriesController extends Controller
     public function destroy($id)
     {
         //
+        $postcategory = PostCategory::findOrFail($id);
+        $postcategory->delete();
+        Session::flash('postcategory_message', $postcategory->name . ' was deleted');
+        return redirect('/admin/postcategories');
+    }
+
+    public function postcategoryRestore($id)
+    {
+        $postcategory = PostCategory::onlyTrashed()->findOrFail($id);
+        PostCategory::onlyTrashed()->where('id', $id);
+        $postcategory->restore();
+        Session::flash('postcategory_message', $postcategory->name . ' was restored');
+        return redirect('admin/postcategories');
     }
 }
+
+

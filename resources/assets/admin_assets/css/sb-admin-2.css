@@ -113,10 +113,23 @@ address {
     background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);
 }
 
+.mosgroen{
+    color: rgba(0,76,69,1);
+}
+
+.appelgroen{
+    color: rgba(107,197,112);
+}
+
+
+
 .redtest{
     color: red;
 }
 
+.pagination{
+    color: red;
+}
 
 
 ol,

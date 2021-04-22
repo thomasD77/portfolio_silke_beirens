@@ -1,10 +1,9 @@
 @extends('layouts.admin_template')
 @section('content')
-    <h1><span class="badge badge-info display-1 shadow"><i class="fas fa-blog "></i>Prospects</span></h1>
+    <h1><span class="badge mosgroen display-1 shadow"><i class="fas fa-fingerprint"></i>Readers</span></h1>
     <div class="row my-3">
         <div class="col-12">
-            <div class="card" style="width: 55rem;">
-                <img class="card-img-top img-fluid" src="{{asset('images/frontend/duiker.PNG')}}" alt="{{$prospect->name}}">
+            <div class="card border-none" style="width: 55rem;">
                 <div class="card-body">
                     <h4 class="card-title">Name:</h4>
                     <p class="card-text">{{$prospect->name}}</p>

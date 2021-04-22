@@ -28,7 +28,6 @@ class PostFactory extends Factory
         $slug = Str::slug($title,'-');
         return [
             //
-            'user_id' => $this->faker->randomElement($users),
             'postcategory_id' => $this->faker->numberBetween(1,4),
             'photo_id' => $this->faker->numberBetween(1,2),
             'title' => $title,

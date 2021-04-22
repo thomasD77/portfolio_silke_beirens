@@ -18,6 +18,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
+use Image;
 
 class AdminPostsController extends Controller
 {
@@ -59,7 +60,6 @@ class AdminPostsController extends Controller
         {
             //
             $post = new Post();
-            $post->user_id = $request->users[0];
             $post->title = $request->title;
             $post->body = $request->body;
             $post->postcategory_id = $request->postcategories[0];
@@ -69,6 +69,11 @@ class AdminPostsController extends Controller
                 $name = time(). $file->getClientOriginalName();
                 $file->move('images/posts', $name);
 
+                // Image Resize
+                $path =  'images/posts/' . $name;
+                $image = Image::make($path);
+                $image->resize(950,450);
+                $image->save('images/posts/' . $name);
                 $photo = Photo::create(['file'=>$name]);
                 $post->photo_id = $photo->id;
             }
@@ -129,7 +134,6 @@ class AdminPostsController extends Controller
         //
 
         $post = Post::findOrFail($id);
-        $post->user_id = $request->user_id;
         $post->title = $request->title;
         $post->body = $request->body;
         $post->postcategory_id = $request->postcategory_id;
@@ -137,6 +141,12 @@ class AdminPostsController extends Controller
         if($file = $request->file('photo_id')){
             $name = time(). $file->getClientOriginalName();
             $file->move('images/posts', $name);
+
+            // Image Resize
+            $path =  'images/posts/' . $name;
+            $image = Image::make($path);
+            $image->resize(950,450);
+            $image->save('images/posts/' . $name);
             $photo = Photo::create(['file'=>$name]);
             $post->photo_id = $photo->id;
         }

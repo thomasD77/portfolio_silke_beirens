@@ -18,9 +18,8 @@ class RolesTableSeeder extends Seeder
         //
         DB::table('roles')->insert(['name' => 'administrator',  'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
-        DB::table('roles')->insert(['name' => 'customer',   'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+        DB::table('roles')->insert(['name' => 'publisher',   'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
-        DB::table('roles')->insert(['name' => 'subscriber',   'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
-            'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
+
     }
 }

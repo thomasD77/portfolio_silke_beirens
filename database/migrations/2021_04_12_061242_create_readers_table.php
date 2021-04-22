@@ -17,6 +17,7 @@ class CreateReadersTable extends Migration
             $table->id();
             $table->string('email');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

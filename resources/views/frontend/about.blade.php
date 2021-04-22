@@ -1,5 +1,5 @@
-@include('frontend.includes.head')
-@include('frontend.includes.nav-bar')
+@extends('layouts.frontend_template')
+@section('content')
 
 
 <main class="container-fluid">
@@ -32,4 +32,4 @@
     </section>
 
 
-@include('frontend.includes.footer')
+@stop

@@ -9,12 +9,10 @@
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('home')}}">
-            <div class="sidebar-brand-icon rotate-n-15">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
-                    <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
-                </svg>
+            <div class="sidebar-brand-icon">
+                <i class="fas fa-door-open"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">GROEN</div>
+            <div class="sidebar-brand-text mx-3">Website</div>
         </a>
 
         <!-- Divider -->
@@ -27,10 +25,12 @@
                 <span>Dashboard</span></a>
         </li>
 
-        <!-- Divider -->
-        <hr class="sidebar-divider">
+
 
         @can('isAdmin')
+
+            <!-- Divider -->
+                <hr class="sidebar-divider">
 
 
         <!-- Nav Item - Users Collapse Menu -->
@@ -44,11 +44,10 @@
                 <div class="bg-white py-2 collapse-inner rounded">
                     <a class="collapse-item" href="{{route('users.index')}}"><i class="far fa-check-circle pr-3"></i> Users</a>
                 </div>
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" href="{{route('roles.index')}}"><i class="far fa-check-circle pr-3"></i>Roles</a>
-                </div>
             </div>
         </li>
+
+    @endcan
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -84,12 +83,11 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="{{route('posts.index')}}"><i class="far fa-check-circle pr-3"></i> Posts</a>
                     </div>
+
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="{{route('postcategories.index')}}"><i class="far fa-check-circle pr-3"></i> Categories</a>
                     </div>
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="https://disqus.com/by/thomasdemeulenaere/" target="_blank"><i class="far fa-check-circle pr-3"></i> Comments</a>
-                    </div>
+
                 </div>
             </li>
 
@@ -109,7 +107,7 @@
                 </a>
                 <div id="collapseProspects" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{route('prospects.index')}}"><i class="far fa-check-circle pr-3"></i> Prospects</a>
+                        <a class="collapse-item" href="{{route('prospects.index')}}"><i class="far fa-check-circle pr-3"></i> Readers</a>
                     </div>
                 </div>
             </li>
@@ -139,13 +137,13 @@
         <!-- Sidebar Message -->
         <div class="sidebar-card">
             <i class="fas fa-question-circle fa-3x mb-2"></i>
-            <p class="text-center mb-2 redtest">Craftworx helpdesk is there for you 24/7</p>
+            <p class="text-center mb-2 redtest">Do You Need Help? We Are Here 24/7</p>
             <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>
         </div>
 
 
 
-        @endcan
+
 
 
 

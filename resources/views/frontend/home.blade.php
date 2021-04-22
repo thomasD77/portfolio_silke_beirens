@@ -41,6 +41,7 @@
                         </li>
                     </ul>
                 </div>
+                @auth
                 <div id="tools" class="d-flex justify-content-center">
                     <a class="d-none d-sm-block" href="{{route('admin.home')}}"><span
                             class="badge badge-dark  shadow my-2 tools p-2 justify-content-end"><svg
@@ -50,6 +51,7 @@
       d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
 </svg></span></a>
                 </div>
+                    @endauth
             </div>
         </nav>
     </div>
@@ -94,6 +96,11 @@
         </div>
     </div>
 
+    <div id="socials" class="container my-5">
+        <div id="instafeed-container" class="row gallery"></div>
+    </div>
+
+
     <div class="gegevens row pt-5">
         <div class="col-12 col-lg-8 offset-lg-2">
             <div class="row">
@@ -132,10 +139,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div id="socials" class="container my-5">
-        <div id="instafeed-container" class="row gallery"></div>
     </div>
 
 </main>

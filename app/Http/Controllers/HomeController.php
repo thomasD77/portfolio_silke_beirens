@@ -32,7 +32,7 @@ class HomeController extends Controller
         $promoToDay = Promo::findOrFail(1)->products()->with(['photo', 'user', 'tags'])->first();
         $promotrends = Promo::findOrFail(7)->products()->with(['photo', 'user', 'tags'])->limit(3)->get();
 
-        return view('layouts.home', compact('products', 'promos', 'promoToDay', 'promotrends'));
+        return view('frontend.home', compact('products', 'promos', 'promoToDay', 'promotrends'));
     }
 
 
@@ -44,7 +44,7 @@ class HomeController extends Controller
         $products = Promo::findOrFail($id)->products()->with(['photo', 'user', 'tags'])->paginate(10);
         $promoToDay = Promo::findOrFail(1)->products()->with(['photo', 'user', 'tags'])->first();
         $promotrends = Promo::findOrFail(7)->products()->limit(3)->with(['photo', 'user', 'tags'])->limit(3)->get();
-        return view ('layouts.home',  compact('products', 'promos' , 'promoToDay', 'promotrends'));
+        return view ('frontend.home',  compact('products', 'promos' , 'promoToDay', 'promotrends'));
 
     }
 

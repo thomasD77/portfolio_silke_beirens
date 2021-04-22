@@ -26,15 +26,12 @@ class PermissionTableSeeder extends Seeder
         DB::table('permission_role')->insert(['permission_id' => '2', 'role_id'=> 1,  'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
 
-        DB::table('permissions')->insert(['name' => 'isCustomer',  'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+        DB::table('permissions')->insert(['name' => 'isPublisher',  'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
         DB::table('permission_role')->insert(['permission_id' => '3', 'role_id'=> 2,  'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
 
-        DB::table('permissions')->insert(['name' => 'isSubscriber',  'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
-            'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
-        DB::table('permission_role')->insert(['permission_id' => '4', 'role_id'=> 3,  'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
-            'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
+
 
 
     }

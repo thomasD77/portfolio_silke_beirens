@@ -23,12 +23,8 @@ class AdminReadersController extends Controller
     public function index(Request $request)
     {
         //
-        $readers = Reader::latest()->paginate(10);
+        $readers = Reader::withTrashed()->latest()->paginate(10);
 
-        /*if($request->has('download')) {
-            $excel = Excel::download('admin.readers.xls');
-            return $excel->download('email_list_subscribers.xlsx');
-        }*/
         return view('admin.readers.index', compact('readers'));
     }
 
@@ -112,6 +108,19 @@ class AdminReadersController extends Controller
     public function destroy($id)
     {
         //
+        $reader = Reader::findOrFail($id);
+        $reader->delete();
+        Session::flash('reader_message', $reader->email . ' was deleted');
+        return redirect('/admin/readers');
+    }
+
+    public function readerRestore($id)
+    {
+        $reader = Reader::onlyTrashed()->findOrFail($id);
+        Reader::onlyTrashed()->where('id', $id);
+        $reader->restore();
+        Session::flash('reader_message', $reader->email . ' was restored');
+        return redirect('admin/readers');
     }
 
     public function export()

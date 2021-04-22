@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('username')->default("");
-            $table->string('is_active')->default(0);
+            $table->string('is_active')->default(1);
             $table->string('email')->unique()->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('photo_id')->default(2);

@@ -1,9 +1,10 @@
 @extends('layouts.admin_template')
 @section('content')
-    <h1><span class="badge badge-info display-1 shadow"><i class="fas fa-swimmer mr-2"></i>Edit User</span></h1>
+    <h1><span class="badge mosgroen display-1 shadow"><i class="fas fa-users mr-2"></i>Edit User</span></h1>
+
     @include('admin.includes.form_error')
     <div class="row">
-        <div class="col-8 img-thumbnail">
+        <div class="col-8 ">
             {!! Form::open(['method'=>'PATCH', 'action'=>['App\Http\Controllers\AdminUsersController@update',$user->id],
             'files'=>true])
              !!}
@@ -20,14 +21,8 @@
                 {!! Form::text('email',$user->email,['class'=>'form-control']) !!}
             </div>
             <div class="form-group">
-                {!! Form::label('is_active', 'Status:') !!}
-                {!! Form::select('is_active',array(1=>'Active', 0=>'Not Active'),$user->is_active,
-                ['class'=>'form-control']) !!}
-            </div>
-            <div class="form-group">
-                {!! Form::label('Select roles: (hou de CTRL toets ingedrukt om meerdere roles te selecteren') !!}
-                {!! Form::select('roles[]',$roles,$user->roles->pluck('id')->toArray(),['class'=>'form-control',
-                'multiple'=>'multiple'])!!}
+                {!! Form::label('Select role:') !!}
+                {!! Form::select('roles[]',$roles,$user->roles->pluck('id')->toArray(),['class'=>'form-control'])!!}
             </div>
             <div class="form-group">
                 {!! Form::label('password', 'Password:') !!}
@@ -38,7 +33,7 @@
                 {!! Form::file('photo_id',null,['class'=>'form-control']) !!}
             </div>
             <div class="form-group mr-1">
-                {!! Form::submit('Update user',['class'=>'btn btn-primary']) !!}
+                {!! Form::submit('Update user',['class'=>'btn btn-dark']) !!}
             </div>
             {!! Form::close() !!}
             <div class="d-flex">
@@ -51,9 +46,8 @@
             </div>
 
         </div>
-        <div class="col-4 img-thumbnail d-flex justify-content-center align-items-center">
-            <img class="img-thumbnail img-fluid" height="62" width="62" src="{{$user->photo ? asset('images/users') . $user->photo->file : 'http://placehold.it/62x62'}}" alt="{{$user->name}}">
-
+        <div class="col-4  d-flex justify-content-center align-items-center">
+            <img class="img-thumbnail img-fluid" src="{{$user->photo ? asset('images/users') . $user->photo->file : 'http://placehold.it/62x62'}}" alt="{{$user->name}}">
         </div>
     </div>
 @stop

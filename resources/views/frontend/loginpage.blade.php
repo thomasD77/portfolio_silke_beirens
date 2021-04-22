@@ -37,13 +37,13 @@
                     <!-- Nested Row within Card Body -->
                     <div class="row">
                         <div class="col-lg-6">
-                            <img class="img-fluid" src="{{'images/frontend/diving.jpeg'}}" alt="">
+                            <img class="img-fluid ml-5 my-5" src="{{'images/frontend/login.PNG'}}" alt="">
                         </div>
 
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">Welcome Divemaster ! </h1>
+                                    <h1 class="h4 text-gray-900 mb-4">Hi there. Welcome!</h1>
                                 </div>
                                 <form method="POST" action="{{route('login')}}" class="user">
                                     @csrf
@@ -73,7 +73,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group row">
+                                   {{-- <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
@@ -83,16 +83,16 @@
                                                 </label>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>--}}
 
-                                    <div class="form-group row mb-0">
+                                    <div class="form-group row mb-0 mt-5">
                                         <div class="col-12 d-flex flex-column">
-                                            <button type="submit" class="btn btn-dark">
+                                            <button type="submit" class="btn btn-success">
                                                 {{ __('Login') }}
                                             </button>
 
                                             @if (Route::has('password.request'))
-                                                <a class="btn btn-link text-md-left" href="{{ route('password.request') }}">
+                                                <a class="btn btn-link text-md-left text-dark" href="{{ route('password.request') }}">
                                                     {{ __('Forgot Your Password?') }}
                                                 </a>
                                             @endif
@@ -102,25 +102,24 @@
 
                                     <hr>
                                     @if(Session::has('login_message'))
-                                        <p class="alert alert-dark my-3">{{session('login_message')}}</p>
+                                        <p class="alert alert-success my-3">{{session('login_message')}}</p>
                                     @endif
 
-                                    <a href="{{route('login.social', 'google')}}" class="btn btn-danger btn-google btn-user btn-block">
+                                    {{--<a href="{{route('login.social', 'google')}}" class="btn btn-danger btn-google btn-user btn-block">
                                         <i class="fab fa-google fa-fw"></i> Login with Google
                                     </a>
                                     <a href="{{route('login.social', 'facebook')}}" class="btn btn-primary btn-facebook btn-user btn-block">
                                         <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                                    </a>
+                                    </a>--}}
 
                                 </form>
 
-                                <hr>
 
                                 <div class="form-group row">
                                     <div class="col-12">
                                         <div class="form-check d-flex">
                                             <p class="">Don't have a account yet? </p>
-                                            <a href="{{ route('register') }}" class="ml-2 text-sm text-gray-700 underline">Register Here</a>
+                                            <a href="{{ route('register') }}" class="ml-2 text-sm text-gray-700 underline text-dark">Register Here</a>
                                         </div>
                                     </div>
                                 </div>
@@ -138,10 +137,6 @@
 </div>
 
 
-{{--<script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
-<script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('vendor/jquery-easing/jquery.easing.min.js')}}"></script>
-<script src="{{asset('js/sb-admin-2.min.js')}}"></script>--}}
 
 <script src="{{asset('js/front-app.js')}} defer"></script>
 

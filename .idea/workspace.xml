@@ -2,266 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/css/magnific.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/custom2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/instafeed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/instafeed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/front-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/front-app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/front-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/front-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/admin_assets/vendor/fontawesome-free/metadata/icons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/admin_assets/vendor/fontawesome-free/metadata/icons.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/bootstrap-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/colors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/colors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/bs-datatable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/bs-filestyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/bs-rating.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/bs-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/bs-switches-vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/bs-switches.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/dark-components.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/ion.rangeslider-vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/ion.rangeslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/pricing-table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/radio-checkbox-vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/radio-checkbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/rangeslider/sprite-skin-nice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/select-boxes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/components/timepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/font-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/Simple-Line-Icons.dev.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/Simple-Line-Icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/Simple-Line-Icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/Simple-Line-Icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/font-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/font-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/font-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/font-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/lined-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/lined-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/lined-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/fonts/lined-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/content.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/events.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/extras.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/layouts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/page-loaders.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/pagetitle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/paginations.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/portfolio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/alerts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/clients.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/countdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/counter-skills.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/dividers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/faqs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/feature-box.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/flipcard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/headings.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/misc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/pricing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/process-steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/promo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/social-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/styled-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/team.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/testimonials.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/toast.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/shortcodes/toggles-accordions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/sliders.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/topbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/typography.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/imports/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/intro-fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/css/swiper.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/chart-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/bs-datatable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/bs-filestyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/bs-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/bs-switches.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/event.move.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/image-changer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/rangeslider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/select-boxes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/selectsplitter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/star-rating.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/timepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/icons/default/icons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/jquery.tinymce.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/langs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/advlist/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/anchor/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/autolink/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/autoresize/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/autosave/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/bbcode/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/charmap/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/code/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/codesample/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/colorpicker/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/contextmenu/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/directionality/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/emoticons/js/emojis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/emoticons/js/emojis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/emoticons/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/fullpage/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/fullscreen/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/help/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/hr/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/image/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/imagetools/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/importcss/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/insertdatetime/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/legacyoutput/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/link/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/lists/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/media/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/nonbreaking/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/noneditable/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/pagebreak/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/paste/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/preview/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/print/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/quickbars/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/save/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/searchreplace/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/spellchecker/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/tabfocus/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/table/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/template/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/textcolor/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/textpattern/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/toc/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/visualblocks/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/visualchars/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/plugins/wordcount/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/content/dark/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/content/default/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/content/document/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/content/writer/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide-dark/content.inline.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide-dark/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide-dark/content.mobile.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide-dark/fonts/tinymce-mobile.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide-dark/skin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide/content.inline.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide/content.mobile.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide/skin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/skins/ui/oxide/skin.mobile.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/themes/mobile/theme.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/themes/silver/theme.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/tinymce/tinymce.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/components/typehead.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/disqus/disqus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/events-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/holder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/intersection-observer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/jquery.calendario.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/jquery.hotspot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/jquery.mousewheel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/particles/particles-bubbles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/particles/particles-line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/particles/particles-nasa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/particles/particles-poly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/particles/particles-snow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/particles/particles.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/particles/particlesjs-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.accordions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.ajaxform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.ajaxportfolio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.animations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.dataclasses.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.dataheights.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.dribbble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.fitvids.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.flexslider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.flickrfeed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.gmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.gridfilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.hashchange.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.hoveranimation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.html5video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.imagesloaded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.infinitescroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.instagram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.isotope.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.jpaginate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.lazyload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.lightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/magnific.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.linkscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.masonrythumbs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.navtree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.notify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.onepage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.pagetransition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.parallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.piechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.pricingswitcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.progress.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.quantity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.readmore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.respond.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.shapedivider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.stickysidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.subscribe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.superfish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.swiper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.textrotator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.toggles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.twitter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/js/plugins.youtube.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/blog/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/vendor/fontawesome-free/metadata/icons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/vendor/fontawesome-free/metadata/icons.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/front-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/front-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/front-app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/front-app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/login.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/includes/footer_crud.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin_crud_template.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/frontend_template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminHomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminHomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostCategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminProspectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminProspectsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminReadersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminReadersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PostCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/PostCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Prospect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Prospect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reader.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Reader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PostFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_09_144954_create_prospects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_09_144954_create_prospects_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_10_103934_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_10_103934_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_08_064218_create_post_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_08_064218_create_post_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_12_061242_create_readers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_12_061242_create_readers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/PermissionTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/PermissionTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/RolesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/RolesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/admin_assets/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/admin_assets/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/admin_assets/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/admin_assets/css/sb-admin-2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/FAQS/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/FAQS/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/FAQS/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/FAQS/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/FAQS/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/FAQS/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/postcategories/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/postcategories/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/postcategories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/postcategories/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/postcategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/postcategories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/prospects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/prospects/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/prospects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/prospects/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/readers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/readers/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/contactformulier.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/contactformulier.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/loginpage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/loginpage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin_template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin_template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,11 +215,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/frontend" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\frontend" />
+      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\layouts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64.2\www\portfolio_silke\public\images\frontend" />
+      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\admin\includes" />
+      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views" />
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\assets\frontend_assets\instagram\js" />
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\assets\frontend_assets\Instagram" />
     </key>
@@ -445,7 +250,11 @@
       <workItem from="1618942375934" duration="804000" />
       <workItem from="1619001334932" duration="802000" />
       <workItem from="1619010556201" duration="27000" />
-      <workItem from="1619023314988" duration="8305000" />
+      <workItem from="1619023314988" duration="8609000" />
+      <workItem from="1619071297511" duration="290000" />
+      <workItem from="1619071907418" duration="36000" />
+      <workItem from="1619080398524" duration="101000" />
+      <workItem from="1619098002415" duration="15861000" />
     </task>
     <servers />
   </component>
@@ -457,13 +266,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619024356047" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1618940332959">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619110003249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1618940332959" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619010580661">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619110003249" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619105156638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619010580661" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619105156638" />
   </component>
 </project>

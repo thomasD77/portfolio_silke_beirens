@@ -1,9 +1,11 @@
 @extends('layouts.admin_template')
 @section('content')
 
-    <h1><span class="badge badge-info display-1 shadow"><i class="fas fa-swimmer mr-2"></i>Users</span></h1>    <h3><span class="badge badge-success display-1 shadow my-2">
-            <i class="fas fa-plus"></i>
-            <a class="text-white text-decoration-none" href="{{route('users.create')}}">Add New</a></span></h3>
+    <div class="d-flex justify-content-between my-4">
+        <h1><span class="badge mosgroen display-1 shadow"><i class="fas fa-users mr-2"></i>Users</span></h1>
+        <h3><span class="badge bg-dark display-1 shadow my-2"><i class=" fas fa-plus text-white"></i><a class="text-white text-decoration-none" href="{{route('users.create')}}">Add New</a></span></h3>
+    </div>
+
     @if(Session::has('user_message'))
         <p class="alert alert-info my-3">{{session('user_message')}}</p>
     @endif
@@ -13,15 +15,12 @@
     <table class="table table-striped">
         <thead>
         <tr>
-            <th scope="col">@sortablelink('id')</th>
+            <th scope="col">Id</th>
             <th scope="col">Photo</th>
-            <th scope="col" >@sortablelink('name')</th>
-            <th scope="col" >@sortablelink('username')</th>
-            <th scope="col">@sortablelink('email')</th>
+            <th scope="col" >Name</th>
+            <th scope="col" >Username</th>
+            <th scope="col">E-mail</th>
             <th scope="col">Role</th>
-            <th scope="col">Status</th>
-            <th scope="col">Password</th>
-            <th scope="col">Actions</th>
             <th scope="col">Created</th>
             <th scope="col">Updated</th>
             <th scope="col">Deleted</th>
@@ -42,11 +41,8 @@
                     <td>{{$user->username ? $user->username : 'No username'}}</td>
                     <td>{{$user->email ? $user->email : 'No email'}}</td>
                     <td>@foreach($user->roles as $role)
-                          <span class="badge badge-pill badge-info">{{$role->name}}</span>
+                          <span class="badge badge-pill badge-success">{{$role->name}}</span>
                       @endforeach</td>
-                    <td>{{$user->is_active ? $user->is_active : 'No status'}}</td>
-                    <td>{{$user->password ? Str::limit($user->password, 6) : 'No password'}}</td>
-                    <td><a class="btn btn-info" href="{{route('users.show', $user->id)}}">Show</a></td>
                     <td>{{$user->created_at->diffForHumans()}}</td>
                     <td>{{$user->updated_at->diffForHumans()}}</td>
                     <td>{{$user->deleted_at}}</td>

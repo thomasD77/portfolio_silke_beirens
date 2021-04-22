@@ -16,6 +16,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
+use Image;
 
 class AdminUsersController extends Controller
 {
@@ -27,8 +28,7 @@ class AdminUsersController extends Controller
     public function index(Request $request)
     {
         //
-        $users = User::withTrashed()->with(['photo', 'roles'])->latest()
-        ->sortable(['name', 'id', 'username', 'email', 'role', 'is_active'])->paginate(10);
+        $users = User::withTrashed()->with(['photo', 'roles'])->latest()->paginate(10);
 
         return view('admin.users.index', compact('users'));
     }
@@ -58,12 +58,16 @@ class AdminUsersController extends Controller
             $user->name= $request->name;
             $user->username= $request->username;
             $user->email = $request->email;
-            $user->is_active = $request->is_active;
 
             if($file = $request->file('photo_id')){
                 $name = time(). $file->getClientOriginalName();
                 $file->move('images/users', $name);
 
+                // Image Resize
+                $path =  'images/users/' . $name;
+                $image = Image::make($path);
+                $image->resize(250,400);
+                $image->save('images/users/' . $name);
                 $photo = Photo::create(['file'=>$name]);
                 $user->photo_id = $photo->id;
             }
@@ -150,13 +154,6 @@ class AdminUsersController extends Controller
     {
         //
         $user = User::findOrFail($id);
-        UsersSoftDeleteOrders::dispatch($user);
-
-        $addresses = $user->addresses()->get();
-        foreach ($addresses as $address){
-            $address->delete();
-        }
-
         $user->delete();
         Session::flash('user_message', $user->name . ' was deleted');
         return redirect('/admin/users');
@@ -165,13 +162,7 @@ class AdminUsersController extends Controller
     public function userRestore($id)
     {
 
-        $addresses = Address::onlyTrashed()->get();
-        foreach ($addresses as $address){
-            $address->restore();
-        }
-
         $user = User::onlyTrashed()->findOrFail($id);
-        UsersSoftRestoreOrders::dispatch($user);
         Session::flash('user_message', $user->name . ' was restored');
         $user->restore();
 

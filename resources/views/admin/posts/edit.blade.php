@@ -1,16 +1,12 @@
-@extends('layouts.admin_template')
+@extends('layouts.admin_crud_template')
 @section('content')
-    <h1>Edit Post</h1>
+    <h1 class="my-4"><span class="badge mosgroen display-1 shadow"><i class="fas fa-blog mr-2"></i>Edit Post</span></h1>
+
     <div class="row">
-        <div class="col-8 img-thumbnail">
+        <div class="col-8 ">
             {!! Form::open(['method'=>'PATCH', 'action'=>['App\Http\Controllers\AdminPostsController@update',$post->id],
             'files'=>true])
              !!}
-            <div class="form-group">
-                {!! Form::label('user_id', 'Name: ') !!}
-                {!! Form::select('user_id', $users, $post->user_id,['class'=>'form-control'])
-                 !!}
-            </div>
             <div class="form-group">
                 {!! Form::label('title', 'Title:') !!}
                 {!! Form::text('title',$post->title,['class'=>'form-control']) !!}
@@ -29,13 +25,13 @@
                 {!! Form::file('photo_id',null,['class'=>'form-control']) !!}
             </div>
             <div class="form-group mr-1">
-                {!! Form::submit('Update Post',['class'=>'btn btn-primary']) !!}
+                {!! Form::submit('Update Post',['class'=>'btn btn-dark']) !!}
             </div>
             {!! Form::close() !!}
         </div>
-        <div class="col-4 img-thumbnail d-flex justify-content-center align-items-center">
-            <img class="img-fluid img-thumbnail" src="{{$post->photo ? asset($post->photo->file) : 'http://place-hold
-               .it/400x400'}}" alt="">
+        <div class="col-4  d-flex justify-content-center align-items-center">
+            <img class="img-thumbnail img-fluid"  src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
+
         </div>
     </div>
 @stop

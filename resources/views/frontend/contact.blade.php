@@ -1,5 +1,5 @@
-@include('frontend.includes.head')
-@include('frontend.includes.nav-bar')
+@extends('layouts.frontend_template')
+@section('content')
 
 
 <main id="contact" class="container-fluid">
@@ -18,7 +18,6 @@
                         </button>
                     </div>
                 @endif
-                @yield('content')
             </div>
         </div>
     </section>
@@ -46,4 +45,4 @@
 
     @include('frontend.includes.contactformulier')
 
-@include('frontend.includes.footer')
+@stop

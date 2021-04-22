@@ -1,6 +1,6 @@
 @extends('layouts.admin_template')
 @section('content')
-    <h1>Create Category</h1>
+    <h1 class="my-4"><span class="badge mosgroen display-1 shadow"><i class="fas fa-blog mr-2"></i>Create Post</span></h1>
     <div class="row">
         <div class="col-12">
             {{--@include('includes.form_error')--}}

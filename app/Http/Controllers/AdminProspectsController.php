@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Exports\ContactExport;
 use App\Exports\ReaderExport;
+use App\Models\PostCategory;
 use App\Models\Prospect;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 use Maatwebsite\Excel\Facades\Excel;
 
 class AdminProspectsController extends Controller
@@ -19,7 +21,7 @@ class AdminProspectsController extends Controller
     public function index()
     {
         //
-        $prospects = Prospect::paginate(10);
+        $prospects = Prospect::withTrashed()->paginate(10);
         return view ('admin.prospects.index', compact('prospects'));
     }
 
@@ -89,7 +91,21 @@ class AdminProspectsController extends Controller
     public function destroy($id)
     {
         //
+        $prospect = Prospect::findOrFail($id);
+        $prospect->delete();
+        Session::flash('prospect_message', $prospect->name . ' was deleted');
+        return redirect('/admin/prospects');
     }
+
+    public function prospectRestore($id)
+    {
+        $prospect = Prospect::onlyTrashed()->findOrFail($id);
+        Prospect::onlyTrashed()->where('id', $id);
+        $prospect->restore();
+        Session::flash('prospect_message', $prospect->name . ' was restored');
+        return redirect('admin/prospects');
+    }
+
 
     public function export(Request $request)
     {

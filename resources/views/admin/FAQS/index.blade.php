@@ -1,9 +1,11 @@
 @extends('layouts.admin_template')
 @section('content')
 
-    <h1><span class="badge badge-info display-1 shadow"><i class="fas fa-swimmer mr-2"></i>FAQs</span></h1>    <h3><span class="badge badge-success display-1 shadow my-2">
-            <i class="fas fa-plus"></i>
-            <a class="text-white text-decoration-none" href="{{route('faqs.create')}}">Add New</a></span></h3>
+    <div class="d-flex justify-content-between my-4">
+        <h1><span class="badge mosgroen display-1 shadow"><i class="fas fa-question-circle mr-2"></i>FAQs</span></h1>
+        <h3><span class="badge bg-dark display-1 shadow my-2"><i class=" fas fa-plus text-white"></i><a class="text-white text-decoration-none" href="{{route('faqs.create')}}">Add New</a></span></h3>
+    </div>
+
     @if(Session::has('faqs_message'))
         <p class="alert alert-info my-3">{{session('faqs_message')}}</p>
     @endif

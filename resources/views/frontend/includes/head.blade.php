@@ -10,4 +10,4 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/front-app.css') }}" rel="stylesheet">
-    </head>
+</head>

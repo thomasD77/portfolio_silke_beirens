@@ -27,7 +27,7 @@
 
 
                 <div id="tools" class="d-flex justify-content-center">
-                    <a class="d-none d-sm-block" href="{{route('admin.home')}}"><span
+                    <a class="d-none d-sm-block" href="{{route('loginpage')}}"><span
                             class="badge badge-dark  shadow my-2 tools p-2 justify-content-end"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-back" viewBox="0 0 16 16">
