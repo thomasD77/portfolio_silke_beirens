@@ -9,7 +9,7 @@
                             <div class="col-md-4 card border-0 my-4" style="background-color:#f8fafc" >
                                 <img class="mt-3 img-fluid"  src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
                                 <div class="card-title border-none">
-                                    <h2 class="mt-2"><a class="text-decoration-none text-dark" href="">{{$post->title}}</a></h2>
+                                    <h2 class="mt-2"><a class="text-decoration-none text-dark" href="">{{Str::limit($post->title, 35)}}</a></h2>
                                 </div>
                                 <div class="card-body px-0  pt-0 ">
                                     <p class="mb-2">{{Str::limit($post->body, 200)}}</p>

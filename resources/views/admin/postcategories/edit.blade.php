@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="col-12">
-            {{--@include('includes.form_error')--}}
+            @include('admin.includes.form_error')
             {!! Form::open(['method'=>'PATCH', 'action'=>['App\Http\Controllers\AdminPostCategoriesController@update',
             $postcategory->id],
             'files'=>false]) !!}

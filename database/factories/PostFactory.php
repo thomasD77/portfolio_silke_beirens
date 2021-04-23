@@ -29,7 +29,7 @@ class PostFactory extends Factory
         return [
             //
             'postcategory_id' => $this->faker->numberBetween(1,4),
-            'photo_id' => $this->faker->numberBetween(1,2),
+            'photo_id' => 3,
             'title' => $title,
             'slug'=> $slug,
             'body' => $this->faker->paragraph(15),

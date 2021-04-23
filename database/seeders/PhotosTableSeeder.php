@@ -18,7 +18,9 @@ class PhotosTableSeeder extends Seeder
         //
         DB::table('photos')->insert(['file' => 'user_thomas.jpg', 'small'=> 'user_thomas.jpg', 'custom'=> 'user_thomas.jpg',  'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
-        DB::table('photos')->insert(['file' => 'deepwater.png', 'small'=> 'deepwater.png', 'custom'=> 'deepwater.png','created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+        DB::table('photos')->insert(['file' => 'groen_logo.PNG', 'small'=> 'deepwater.png', 'custom'=> 'deepwater.png','created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+            'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
+        DB::table('photos')->insert(['file' => 'noorwegen.PNG', 'small'=> 'deepwater.png', 'custom'=> 'deepwater.png','created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
     }
 }

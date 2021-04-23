@@ -5,11 +5,12 @@
         <p class="text-center mb-lg-4">Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
             <br> voluptas sit aspernatur aut </p>
 
+        @include('admin.includes.form_error')
         <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\ContactController@store')}}" method="post">
             @csrf
             <div  class="row">
                 <div class="col-12 col-lg-4">
-                    <input name="name" type="text" class="form-control my-1" placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
+                    <input name="name" type="text" class="form-control my-1 outlinetest" placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <div class="col-12 col-lg-4">
                     <input name="email" type="text" class="form-control my-1" placeholder="Your Email" aria-label="email" aria-describedby="basic-addon1">

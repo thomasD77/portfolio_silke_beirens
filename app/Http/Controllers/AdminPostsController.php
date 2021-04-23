@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Events\PostSoftDelete;
+use App\Http\Requests\PostRequest;
 use App\Models\Category;
 use App\Models\Photo;
 use App\Models\Post;
@@ -55,7 +56,7 @@ class AdminPostsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(PostRequest $request)
 
         {
             //
@@ -72,7 +73,7 @@ class AdminPostsController extends Controller
                 // Image Resize
                 $path =  'images/posts/' . $name;
                 $image = Image::make($path);
-                $image->resize(950,450);
+                $image->resize(800,450);
                 $image->save('images/posts/' . $name);
                 $photo = Photo::create(['file'=>$name]);
                 $post->photo_id = $photo->id;
@@ -129,7 +130,7 @@ class AdminPostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(PostRequest $request, $id)
     {
         //
 
