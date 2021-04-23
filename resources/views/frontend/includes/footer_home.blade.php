@@ -9,7 +9,6 @@
                     up to date with latest offers and
                     upcoming trends.</p>
                     <a href="mailto:info@divemaster.be"><button type="submit" class="button rounded">Email Us</button></a>
-
             </div>
             <div class="col-12 col-xl-3">
                 <h3 class="mb-4">About Us</h3>
@@ -39,7 +38,7 @@
     </div>
 </div>
 </main>
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up mx-2"></i></button>
+<button class="d-none d-md-block" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up mx-2 "></i></button>
 <footer class="container-fluid">
     <div class="row">
         <hr>
@@ -77,5 +76,4 @@
     }
 </script>
 </body>
-<script src="{{asset('js/front-app.js')}}"></script>
 </html>

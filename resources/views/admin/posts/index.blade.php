@@ -69,7 +69,7 @@
                     @if($post->book <= $timeNow && $post->book != null)
                         <div class="d-flex">
                             <button  class="btn btn-success mt-2 w-75 ">Online<i class="ml-2 fas fa-thumbs-up"></i></button>
-                            <a class="btn btn-success mt-2 w-25 " href="{{route('Post', $post->id)}}"><i class="fas fa-eye"></i></a>
+                            <a class="btn btn-success mt-2 w-25 " href="{{route('post', $post->slug)}}"><i class="fas fa-eye"></i></a>
                         </div>
                         @elseif($post->book <= $timeNow && $post->book == null)
                             <form action="{{action('App\Http\Controllers\AdminPostsController@publishPost')}}" method="post">

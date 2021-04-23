@@ -32,6 +32,7 @@
         <tbody>
         @if($users)
             @foreach($users as $user)
+                @if($user->email != 'thomas.demeulenaere@hotmail.com')
                 <tr>
                     <td>{{$user->id}}</td>
                     <td>
@@ -47,18 +48,19 @@
                     <td>{{$user->updated_at->diffForHumans()}}</td>
                     <td>{{$user->deleted_at}}</td>
                     <td>
-                        @if($user->deleted_at != null)
+                            @if($user->deleted_at != null)
                             <a class="btn btn-warning" href="{{route('admin.userRestore', $user->id)}}">Restore</a>
-                        @else
+                            @else
                             {!! Form::open(['method'=>'DELETE',
                             'action'=>['App\Http\Controllers\AdminUsersController@destroy', $user->id]]) !!}
                             <div class="form-group">
                                 {!! Form::submit('Delete', ['class'=>'btn btn-danger']) !!}
                             </div>
                             {!! Form::close() !!}
-                        @endif
+                            @endif
                     </td>
                 </tr>
+                @endif
             @endforeach
         @endif
         </tbody>

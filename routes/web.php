@@ -59,7 +59,7 @@ Route::get('/productPage/{id}', 'App\Http\Controllers\FrontendController@product
 Route::get('/about', 'App\Http\Controllers\FrontendController@index_about')->name('about');
 Route::get('/contact', 'App\Http\Controllers\FrontendController@index_contact')->name('contact');
 Route::get('/blog', 'App\Http\Controllers\FrontendController@index_blog')->name('blog');
-Route::get('/post/{id}', 'App\Http\Controllers\FrontendController@index_post')->name('post');
+Route::get('/post/{slug}', 'App\Http\Controllers\FrontendController@index_post')->name('post');
 
 // Facebook login
 Route::get('login/facebook', [App\Http\Controllers\Auth\LoginController::class, 'redirectToFacebook'])->name('login.facebook');

@@ -9,7 +9,6 @@
                     up to date with latest offers and
                     upcoming trends.</p>
                     <a href="mailto:info@divemaster.be"><button type="submit" class="button rounded">Email Us</button></a>
-
             </div>
             <div class="col-12 col-xl-3">
                 <h3 class="mb-4">About Us</h3>

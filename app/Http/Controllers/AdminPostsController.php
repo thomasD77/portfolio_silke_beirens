@@ -78,6 +78,7 @@ class AdminPostsController extends Controller
                 $photo = Photo::create(['file'=>$name]);
                 $post->photo_id = $photo->id;
             }
+            $post['slug'] = Str::slug($request->title, '-');
 
             $post->save();
 
@@ -146,11 +147,12 @@ class AdminPostsController extends Controller
             // Image Resize
             $path =  'images/posts/' . $name;
             $image = Image::make($path);
-            $image->resize(950,450);
+            $image->resize(800,450);
             $image->save('images/posts/' . $name);
             $photo = Photo::create(['file'=>$name]);
             $post->photo_id = $photo->id;
         }
+        $post['slug'] = Str::slug($request->title, '-');
 
         $post->update();
         return redirect('admin/posts');

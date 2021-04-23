@@ -65,9 +65,9 @@ class FrontendController extends Controller
         return view('frontend.blog', compact('posts'));
     }
 
-    public function index_post($id){
+    public function index_post($slug){
 
-        $post = Post::findOrFail($id);
+        $post = Post::where('slug', $slug)->first();
         return view('frontend.post', compact('post'));
     }
 

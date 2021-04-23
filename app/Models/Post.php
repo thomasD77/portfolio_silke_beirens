@@ -76,6 +76,11 @@ class Post extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function getRouteKey()
+    {
+        return 'slug';
+    }
+
 
 
     /*public function postcomments()
@@ -83,10 +88,7 @@ class Post extends Model
         return $this->hasMany(PostComment::class);
     }*/
 
-    /*public function getRouteKey()
-    {
-        return 'slug';
-    }*/
+
 
     /*public function tags()
     {

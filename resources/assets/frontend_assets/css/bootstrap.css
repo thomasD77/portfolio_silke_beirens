@@ -10783,11 +10783,11 @@ header .navbar-toggler {
   border-color: #333333 !important;
 }
 header .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(51, 51, 51, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .outlinetest {
-  outline-color: black;
+  outline-color: #000000;
 }
 
 #social a {
@@ -10795,7 +10795,7 @@ header .navbar-toggler-icon {
   color: black;
   width: 3rem;
   height: 3rem;
-  background: lightgrey;
+  background: #d3d3d3;
   border-radius: 50%;
 }
 
@@ -10805,7 +10805,7 @@ header .navbar-toggler-icon {
 }
 
 .gegevens {
-  background: #bcc1c0;
+  background: #d3d3d3;
 }
 .gegevens h3, .gegevens .h3 {
   font-size: 1.2rem;
@@ -10830,7 +10830,7 @@ header .navbar-toggler-icon {
 }
 
 footer {
-  background: #bcc1c0;
+  background: #d3d3d3;
 }
 
 h1, .h1 {
@@ -10852,7 +10852,6 @@ h1, .h1 {
 }
 #bereikbaar #inputmail {
   background: rgba(91, 132, 226, 0.2);
-  width: 18rem;
   color: #FFFFFF;
   border: none;
 }
