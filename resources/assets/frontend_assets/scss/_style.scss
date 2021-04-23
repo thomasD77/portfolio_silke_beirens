@@ -39,6 +39,27 @@
   src: url('../fonts/Bradley/JustAnotherHand-Regular.ttf');
 }
 
+@font-face {
+    font-family: RobotoBold;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url('../fonts/Roboto/Roboto-Italic.ttf');
+}
+
+
 .w-15{
   width: 15%;
 }
@@ -55,6 +76,26 @@ $colorYellow: #ffff00;
 
 
 
+.green{
+    background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);
+}
+
+.groengroen{
+    color: rgba(0,141,127,1);
+}
+
+.mosgroen{
+    color: rgba(0,76,69,1);
+}
+
+.appelgroen{
+    color: rgba(107,197,112);
+}
+
+.kiwigroen{
+    color: rgba(121,172,43);
+}
+
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -64,47 +105,29 @@ $colorYellow: #ffff00;
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: $colorBlack; /* Set a background color */
+    background-color: rgba(121,172,43);
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
+    padding: 10px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    font-size: 15px; /* Increase font size */
 }
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-.groen{
-    background: $colorGradientGroen;
-}
-
-.redtest{
-    color: red;
-}
-
-
-/*$colorBackground: #f4f4f4;*/
-
-.test{
-    color: yellow;
-}
-
-body{
+/*body{
   font-family: RalewayR;
   font-size: 1rem;
   color: $colorAntraciet;
-}
-
-.text-justify{
-  text-align: justify;
-}
+    background-color: yellow;
+}*/
 
 header{
   background: $colorBackground;
   #logotitle{
-    font-family: PopBold;
+    font-family: RobotoRegular;
     font-size: 1.3rem;
     color: $colorAntraciet;
   }
@@ -126,26 +149,25 @@ header{
   }
 }
 
-footer{
-    background: rgba(169, 174, 169, 0.5);
-  #social a{
+#social a{
     font-size: 1.5rem;
-    color: $colorAntraciet;
+    color: black;
     width: 3rem;
     height: 3rem;
-    background: $colorWhite;
+    background: lightgrey;
     border-radius: 50%;
-    &:hover{
-      background: #8c8888;
-    }
-  }
+}
+#social a:hover{
+    background: black;
+    color: white;
 }
 
+
 .gegevens{
-    background: rgba(169, 174, 169, 0.5);
+    background: rgb(188, 193, 192);
   h3{
     font-size: 1.2rem;
-    font-family: HKGbold;
+    font-family: RobotoBold;
   }
   .emaillabel{
     background: #D9D7D7;
@@ -162,9 +184,12 @@ footer{
     outline-color: #D9D7D7;
   }
 }
+footer{
+    background: rgb(188, 193, 192);
+}
 
 h1{
-  font-family: HKGbold;
+  font-family: RobotoBold;
   font-size: 1.5rem;
 }
 
@@ -173,125 +198,11 @@ h1{
 /********************************************** Home ************************************************************
 ***************************************************************************************************************/
 
-/*Carrousel*/
-
-#imagetitle{
-        font-family: HKGbold;
-        font-size: 1.2rem;
-        color: $colorBlack;
-}
-
-
-
-.image{
-  position: relative;
-}
-.price{
-  position: absolute;
-  left: 80%;
-  top: 10%;
-  background: $colorPrimary;
-  color: $colorWhite;
-  padding: 3% 2%;
-  font-family: HKGbold;
-}
-#fotocarrousel{
-  position: relative;
-}
-#next{
-  position: absolute;
-  right: 15%;
-  top: 80%;
-  width: 3rem;
-  height: 3rem;
-}
-
-#prev{
-  position: absolute;
-  left: 40%;
-  top: 80%;
-  width: 3rem;
-  height: 3rem;
-}
-.shopline{
-  font-family: HKGbold;
-}
-
-/*populair*/
-h2{
-  font-family: HKGbold;
-  font-size: 1.5rem;
-}
-#populair{
-  .category_title{
-      position: relative;
-    font-family: Montbold;
-    font-size: 1.3rem;
-    color: $colorWhite;
-  }
-  #image1, #image2, #image3,{
-      position: relative;
-
-    .category_title{
-      position: absolute;
-      top: 5%;
-      left: 5%;
-    }
-  }
-
-}
-
-/*** nieuw ***/
-
-#nieuw{
-  background: $colorBackground;
-}
-.nav-link{
-  color: $colorAntraciet;
-  font-family: HKGbold;
-}
-.list-group-item{
-  color: $colorAntraciet;
-}
-.ster{
-  color: $colorYellow;
-  font-size: 1.3rem;
-}
-.btnstyle{
-  outline-color: $colorPrimary;
-  padding: 2% 4%;
-  font-family: HKG;
-  font-size: 0.8rem;
-}
-.cardborder{
-  border: none;
-    border-bottom: none;
-}
-
-/*** promo ***/
-
-#promo{
-    background: rgba(169, 174, 169, 0.5);
-  position: relative;
-  #countdown{
-    font-size: 2rem;
-    font-family: Pop;
-  }
-  #promoprice{
-    font-size: 1.5rem;
-  }
-  #promotitle{
-    font-family: RalewayBold;
-  }
-}
 
 /*** bereikbaar ***/
-
 #bereikbaar{
-    background: rgba(169, 174, 169, 0.5);
-  #label{
-    position: relative;
-  }
+    background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);
+
   #btnnewsletter{
     width: 9rem;
     height: 2.32rem;
@@ -303,9 +214,6 @@ h2{
         background: rgb(91, 132, 226, 0.2);
         width: 18rem;
         color: $colorWhite;
-        position: absolute;
-        left: 0;
-        top: 0;
         border: none;
     }
   input::-webkit-input-placeholder {
@@ -313,227 +221,6 @@ h2{
   }
 }
 
-/*** nieuwste ***/
-
-#nieuwste{
-  .list-group-item{
-    font-family: RalewayBold;
-  }
-}
-
-/*** Socials ***/
-#socials{
-    .socialparent{
-        position: relative;
-        text-align: center;
-    }
-    .social-content{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        padding-top: 60%;
-        transition: all .3s ease 0s;
-    }
-    .icon{
-        opacity: 0;
-    }
-    .icon li{
-        display: inline-block;
-    }
-    .icon li a{
-        font-size: 2rem;
-        color: $colorWhite;
-    }
-
-    .facebook{
-        &:hover{
-            background: rgb(54, 106, 210, 0.5);
-        }
-        &:hover .icon{
-            opacity: 1;
-        }
-    }
-    .instagram{
-        &:hover{
-            background: rgba(210, 118, 118, 0.5);
-        }
-        &:hover .icon{
-            opacity: 1;
-        }
-    }
-    .twitter{
-        &:hover{
-            background: rgb(51, 215, 203, 0.5);
-        }
-        &:hover .icon{
-            opacity: 1;
-        }
-    }
-    .youtube{
-        &:hover{
-            background: rgb(231, 18, 37, 0.5);
-        }
-        &:hover .icon{
-            opacity: 1;
-        }
-    }
-
-
-}
-
-
-/********************************************* SHOP PAGINA **********************************************
-**********************************************************************************************************/
-
-.atags{
-  text-decoration: none;
-  color: $colorAntraciet;
-}
-.allcategories{
-  list-style: none;
-}
-.categoriesstyle{
-  background: $colorBackground;
-  font-size: 1.1rem;
-}
-.card-actions{
-  background: $colorPrimary;
-  font-family: Montbold;
-  font-size: 0.8rem;
-  color: $colorWhite;
-  opacity: 0;
-}
-.card:hover .card-actions{
-  opacity: 1;
-}
-h4{
-  font-family: HKGbold;
-}
-.choosebtn{
-  border: none;
-  background: $colorBackground;
-  font-size: 0.8rem;
-}
-.filter{
-  font-size: 0.8rem;
-  padding: 2% 4%;
-}
-.cart{
-  background: $colorPrimary;
-  color: $colorWhite;
-  padding: 5% ;
-}
-#sidebar{
-  position: relative;
-  #next{
-    position: absolute;
-    left: 25%;
-    top: 110%;
-    width: 2rem;
-    height: 2rem;
-  }
-  #prev{
-    position: absolute;
-    left: 0%;
-    top: 110%;
-    width: 2rem;
-    height: 2rem;
-  }
-}
-
-/********************************************* Wenslijst **************************************************
-**********************************************************************************************************/
-
-#wenslijst{
-  .stylelistitem{
-    font-family: HKGbold;
-    font-size: 1.1rem;
-  }
-  .cart{
-    background: $colorWhite;
-    color: $colorAntraciet;
-  }
-  .cart-item{
-    border-top: 0.05rem solid $colorBlack;
-  }
-}
-#shopping{
-  #shoppingbtn{
-    width: 100%;
-    font-family: Pop;
-    font-size: 0.8rem;
-  }
-  .cartbtn{
-    font-family: Pop;
-    font-size: 0.8rem;
-    border: 0.05rem solid $colorBlack;
-  }
-}
-#coupon{
-  #inputcoupon{
-    background: $colorBackground;
-  }
-  .btncoupon{
-    font-family: Pop;
-    font-size: 0.8rem;
-  }
-  h3{
-    font-family: Montbold;
-    font-size: 1.5rem;
-    border-bottom: 0.05rem solid $colorAntraciet;
-  }
-  .textstyle{
-    font-family: Montbold;
-  }
-  .textstyle2{
-    font-size: 0.8rem;
-  }
-}
-
-/********************************************* PRODUCT PAGINA **********************************************
-**********************************************************************************************************/
-
-.btn-colour {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  box-shadow: inset 0 0 0 5px #fff, 0 0 0 1px #ced4da;
-  cursor: pointer;
-}
-
-h6{
-  font-family: HKGbold;
-}
-
-.btnsize{
-  font-family: Montbold;
-  font-size: 0.75rem;
-  background: $colorWhite;
-}
-
-.btncart{
-  width: 50%;
-  font-family: HKG;
-}
-
-#smedia a{
-  font-size: 1.5rem;
-  color: $colorAntraciet;
-  width: 3rem;
-  height: 3rem;
-  background: $colorWhite;
-
-  &:hover{
-    background: $colorPrimary;
-    border-radius: 5%;
-  }
-}
-
-#test{
-  margin-top: 20%;
-}
 
 /********************************************* ABOUT US **************************************************
 **********************************************************************************************************/
@@ -541,51 +228,27 @@ h6{
 #about{
   h2{
     font-size: 1.2rem;
-    font-family: Pop;
+    font-family: RobotoRegular;
   }
   h3{
     font-size: 1rem;
-    font-family: Montbold;
-  }
-  #duiker3{
-    clip-path: polygon(100% 0%, 92% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background-color: green;
-    background-blend-mode: screen;
-  }
-
-}
-
-/********************************************* Checkout **************************************************
-**********************************************************************************************************/
-
-#checkout{
-  .textbold{
-    font-family: Montbold;
-    font-size: 0.8rem;
-  }
-  #noteinput{
-    height: 20rem;
-  }
-
-  .textstyle{
-    font-family: HKGbold;
-  }
-h3{
-  font-family: Montbold;
-}
-  .card, .list-group-item{
-    background: $colorBackground;
+    font-family: RobotoBold;
   }
 }
+
 
 /********************************************* Contact **************************************************
 **********************************************************************************************************/
 
-#contact{
-  #ez-map { min-height:150px; min-width:150px; height: 420px; width: 100%; }
-  .textfield{
-    height: 15rem;
-  }
+.button {
+    background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 /***********************************************************************************************************
@@ -593,11 +256,6 @@ h3{
 ***********************************************************************************************************/
 
 @media (min-width: 768px){
-  #btnnewsletter{
-    position: absolute;
-    left: 16rem;
-    top: 0;
-  }
   #social{
     width: 50%;
     margin: 0 auto;
@@ -605,109 +263,19 @@ h3{
 }
 
 @media (min-width: 992px){
-  #logoimg{
-    width: 2%;
-  }
   .navbar-nav > li > a {
-    &:hover{
-      /*border-bottom: 0.1rem solid $colorAntraciet;
-      transition-duration: 1000ms;*/
-        border: 1px solid black;
-        border-radius: 25px;
-        transition-duration: 1300ms;
-    }
+      &:hover {
+          /*border-bottom: 0.1rem solid $colorAntraciet;
+          transition-duration: 1000ms;*/
+          border: 1px solid black;
+          border-radius: 25px;
+          transition-duration: 1300ms;
+      }
   }
-  #fotocarrousel{
-    h1{
-      font-size: 3rem;
-    }
-  }
-  #logotitle{
-    font-size: 1.8rem;
-  }
-  .ms-n1 {
-    margin-left: -3rem !important;
-  }
-  #promo{
-    #countdown{
-      font-size: 3rem;
-    }
-  }
-  .duikpakimg{
-    width: 75%;
-  }
-  #fotobox{
-    position: relative;
-    #duiker3{
-      width: 80%;
-    }
-    #gopro{
-      position: absolute;
-      left: 55%;
-      bottom: -20%;
-      width: 30%;
-    }
-  }
-  #symbols{
-    margin-top: 15%;
-  }
-  #shopping{
-    #shoppingbtn{
-      width: 50%;
-      margin-left: 40%;
-    }
-  }
-  #coupon{
-    #inputcoupon{
-      width: 60%;
-    }
-  }
-  .kenburns-top {
-    -webkit-animation: kenburns-top 5s ease-out both;
-    animation: kenburns-top 5s ease-out both;
-  }
-  #kenburn{
-    overflow: hidden;
-  }
-  #social{
-    width: 100%;
-  }
+
 }
 
 
-/**
- * ----------------------------------------
- * animation kenburns-top
- * ----------------------------------------
- */
-@-webkit-keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-    transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-    transform-origin: 50% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(-15px);
-    transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-    transform-origin: top;
-  }
-}
-@keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-    transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-    transform-origin: 50% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(-15px);
-    transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-    transform-origin: top;
-  }
-}
 
 
 

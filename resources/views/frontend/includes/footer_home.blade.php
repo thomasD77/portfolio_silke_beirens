@@ -39,6 +39,7 @@
     </div>
 </div>
 </main>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up mx-2"></i></button>
 <footer class="container-fluid">
     <div class="row">
         <hr>
@@ -51,6 +52,30 @@
         </div>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+<script src="{{asset('js/front-app.js')}}"></script>
+<script>
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
 </body>
 <script src="{{asset('js/front-app.js')}}"></script>
 </html>

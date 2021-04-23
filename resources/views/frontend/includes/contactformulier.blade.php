@@ -20,12 +20,12 @@
             </div>
             <div class="row my-3">
                 <div class="col-12">
-                    <textarea name="message" class="form-control textfield" placeholder="Your message here" aria-label="With textarea"></textarea>
+                    <textarea name="message" class="form-control textfield" rows="10" cols="50" placeholder="Your message here" aria-label="With textarea"></textarea>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-lg-4 offset-lg-4 d-flex justify-content-center mb-5">
-                    <button type="submit" class="btnstyle btn-primary rounded text-uppercase mt-lg-4">Send to us</button>
+                    <button type="submit" class="button rounded">Send to Us</button>
                 </div>
             </div>
         </form>

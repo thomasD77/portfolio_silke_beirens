@@ -44,18 +44,6 @@
             </div>
         </nav>
     </div>
-
-    <div class="row my-3 my-lg-5 pb-3 pb-lg-5">
-        <div class="col-12 col-lg-8 offset-lg-2">
-            <h1><span class="text-uppercase me-2">{{Route::currentRouteName()}}</span></h1>
-            <div class="d-flex">
-                <p><a class="atags pe-2 text-dark" href="{{route('home')}}">Home</a></p>
-                <p>|</p>
-                <p class="text-capitalize"><a class="atags ps-2 text-uppercase" href=""></a> {{$name = Route::currentRouteName()}}</p>
-            </div>
-        </div>
-    </div>
-
 <div id="app"></div>
 </header>
 

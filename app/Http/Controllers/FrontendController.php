@@ -61,7 +61,7 @@ class FrontendController extends Controller
 
     public function index_blog(){
         $timeNow = Carbon::now()->toDateString();
-        $posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->paginate(3);
+        $posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->paginate(6);
         return view('frontend.blog', compact('posts'));
     }
 
