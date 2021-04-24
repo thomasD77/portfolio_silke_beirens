@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-12 d-flex flex-column">
             <div id="imagediving" class="row mx-0">
-                <img class="img-fluid" src="{{asset('images/frontend/header2.jpg')}}" alt="">
+                <img class="img-fluid " src="{{asset('images/frontend/silke_psd.jpg')}}" alt="">
             </div>
         </div>
     </div>

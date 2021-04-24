@@ -44,7 +44,7 @@
         </nav>
     </div>
 
-    <div class="row my-3 my-lg-5 pb-3 pb-lg-5">
+    <div class="row  pb-3 pb-lg-5">
         <div class="col-12 col-lg-8 offset-lg-2">
             <h1><span class="text-uppercase me-2">{{Route::currentRouteName()}}</span></h1>
             <div class="d-flex">

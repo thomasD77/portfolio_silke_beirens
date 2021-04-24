@@ -1,8 +1,9 @@
 <body class="pt-0">
 <header class="container-fluid">
     <div class="row">
-        <nav class="navbar navbar-expand-lg pe-0">
+        <nav class="navbar fixed-top navbar-expand-lg pe-0">
             <div class="col-12 col-lg-10 offset-lg-1 d-md-flex align-items-center px-0">
+                <img class="img-fluid w-5" src="{{asset('images/frontend/Avatar_groen.png')}}" alt="logo_groen">
                 <a class="navbar-brand ps-0 ps-lg-3 me-4 py-0 text-uppercase" id="logotitle">Silke Beirens</a>
                 @auth()
                     <a class="d-none d-sm-block" href="{{route('admin.home')}}">

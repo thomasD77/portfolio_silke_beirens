@@ -58,7 +58,9 @@
     font-family: RobotoItalic;
     src: url('../fonts/Roboto/Roboto-Italic.ttf');
 }
-
+.w-5{
+    width: 5%;
+}
 
 .w-15{
   width: 15%;
@@ -131,8 +133,12 @@ header{
     font-size: 1.3rem;
     color: $colorAntraciet;
   }
+    .navbar{
+        background: $colorBackground;
+    }
   .navbar-nav > li > a {
     color: black;
+
       font-family: RobotoBold;
     font-size: 0.8rem;
       border: 1px solid transparent;
@@ -166,6 +172,8 @@ header{
     background: black;
     color: white;
 }
+
+
 
 
 .gegevens{
@@ -233,14 +241,22 @@ h1{
 **********************************************************************************************************/
 
 #about{
+    background-color: #ffffff;
+    h1{
+        font-family: RobotoBold;
+    }
   h2{
     font-size: 1.2rem;
-    font-family: RobotoRegular;
-  }
-  h3{
-    font-size: 1rem;
     font-family: RobotoBold;
   }
+    h3{
+        font-size: 1.1rem;
+        font-family: RobotoBold;
+        color: rgba(0,76,69,1);
+    }
+    p{
+        font-family: RobotoRegular;
+    }
 }
 
 

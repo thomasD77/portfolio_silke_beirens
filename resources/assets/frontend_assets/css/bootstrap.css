@@ -10694,6 +10694,10 @@ textarea.form-control-lg {
   font-family: RobotoItalic;
   src: url("../fonts/Roboto/Roboto-Italic.ttf");
 }
+.w-5 {
+  width: 5%;
+}
+
 .w-15 {
   width: 15%;
 }
@@ -10768,6 +10772,9 @@ header #logotitle {
   font-family: RobotoRegular;
   font-size: 1.3rem;
   color: #333333;
+}
+header .navbar {
+  background: #f8f7f7;
 }
 header .navbar-nav > li > a {
   color: black;
@@ -10861,13 +10868,23 @@ h1, .h1 {
 
 /********************************************* ABOUT US **************************************************
 **********************************************************************************************************/
+#about {
+  background-color: #ffffff;
+}
+#about h1, #about .h1 {
+  font-family: RobotoBold;
+}
 #about h2, #about .h2 {
   font-size: 1.2rem;
-  font-family: RobotoRegular;
+  font-family: RobotoBold;
 }
 #about h3, #about .h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: RobotoBold;
+  color: #004c45;
+}
+#about p {
+  font-family: RobotoRegular;
 }
 
 /********************************************* Contact **************************************************

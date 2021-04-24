@@ -55,8 +55,7 @@ class FrontendController extends Controller
 
 
     public function index_about(){
-        $FAQS = FAQ::all();
-        return view('frontend.about', compact('FAQS'));
+        return view('frontend.about');
     }
 
     public function index_blog(){
@@ -74,7 +73,8 @@ class FrontendController extends Controller
 
 
     public function index_contact(){
-        return view('frontend.contact');
+        $FAQS = FAQ::all();
+        return view('frontend.contact', compact('FAQS'));
     }
 
     public function addToCart($id){
