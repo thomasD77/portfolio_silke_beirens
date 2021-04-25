@@ -33,7 +33,7 @@
         "webpack-dev-server": "^3.11.2"
     },
     "dependencies": {
-        "aos": "^2.3.4",
+        "aos": "^3.0.0-beta.6",
         "nouislider": "^14.7.0",
         "post-loader": "^2.0.0",
         "postcss-import": "^14.0.1",

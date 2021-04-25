@@ -2,37 +2,33 @@
     <div class="col-12 col-lg-8 offset-lg-2">
         <div class="row">
             <div class="col-12 col-xl-3 mb-5">
-                <h2 class="text-uppercase mb-4">DIVESHOP</h2>
-                <p>Email: info@divemaster.be</p>
+                <h2 class="text-uppercase mb-4">Silke Beirens</h2>
+                <p>Email: info@silkebeirens.be</p>
                 <p>Phone:  +948 256 347 968</p>
-                <p>Subscribe to our newsleter and stay
-                    up to date with latest offers and
-                    upcoming trends.</p>
-                    <a href="mailto:info@divemaster.be"><button type="submit" class="button rounded">Email Us</button></a>
+                <p>Graag contact opnemen? Stuur ons een e-mail.</p>
+                <a href="mailto:info@divemaster.be"><button type="submit" class="button rounded">Email Us</button></a>
             </div>
             <div class="col-12 col-xl-3">
                 <h3 class="mb-4">About Us</h3>
-                <p>Our Outlets</p>
-                <p>Sales and Retails</p>
-                <p>Areas we serve</p>
-                <p>Career at Divemaster</p>
-                <p>Contact us</p>
+                <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Silke Beirens?</p></a>
+                <a class="text-decoration-none text-dark" href="{{route('about', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
+                <a class="text-decoration-none text-dark" href="{{route('about', ["#bevoegdheden"])}}"><p>Wat zijn Silke haar bevoegdheden?</p></a>
             </div>
             <div class="col-12 col-xl-3">
-                <h3 class="mb-4">Help and Support</h3>
-                <p>Track my order</p>
-                <p>Our top products</p>
-                <p>My cart</p>
-                <p>Sign in</p>
-                <p>Shipping Calculator</p>
+                <h3 class="mb-4">Contact Us</h3>
+                <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact informatie</p></a>
+                <a class="text-decoration-none text-dark" href="{{route('contact', ["#contactforumlier_anchor"])}}"><p>Contact formulier</p></a>
+                <a class="text-decoration-none text-dark" href="{{route('contact', ["#FAQ"])}}"><p>FAQ</p></a>
             </div>
             <div class="col-12 col-xl-3">
-                <h3 class="mb-4">Pages & Resources</h3>
-                <p>About us</p>
-                <p>Shop Page</p>
-                <p>Category page</p>
-                <p>Sign in page</p>
-                <p>404 page</p>
+                <h3 class="mb-4">Blog</h3>
+                @foreach($footer_posts as $post)
+                    <div class="row">
+                        <div class="col-3"><img class="img-fluid" src="{{asset('images/frontend/logo_footer_groen.jpg')}}" alt=""></div>
+                        <a class="text-decoration-none text-dark col-9" href="{{route('post', $post->slug)}}">
+                            <p class="newsstyle text-uppercase">{{$post->title}}</p></a>
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>

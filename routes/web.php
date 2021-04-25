@@ -101,6 +101,9 @@ Route::group(['prefix'=>'admin', 'middleware'=>[ 'admin', 'auth', 'verified']], 
     Route::get('faqs/restore/{id}', 'App\Http\Controllers\AdminFAQSController@FAQRestore')->name('admin.FAQRestore');
 });
 
+Route::resource('/readers', App\Http\Controllers\AdminReadersController::class);
+Route::post('newsletter', 'App\Http\Controllers\AdminReadersController@store');
+
 // Backend Customer
 Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function(){
     Route::get('/', [App\Http\Controllers\AdminHomeController::class, 'index'])->name('admin.home');
@@ -122,8 +125,8 @@ Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function()
     Route::get('restore/review/{review}', 'App\Http\Controllers\AdminReviewsController@reviewRestore')->name('admin.reviewRestore');
     Route::resource('/reviewreplies', App\Http\Controllers\AdminReviewRepliesController::class);
     Route::get('restore/reviewreply/{reviewreply}', 'App\Http\Controllers\AdminReviewRepliesController@reviewreplyRestore')->name('admin.reviewreplyRestore');
-    Route::post('newsletter', 'App\Http\Controllers\AdminReadersController@store');
-    Route::resource('/readers', App\Http\Controllers\AdminReadersController::class);
+
+
     Route::get('/export/readers', [App\Http\Controllers\AdminReadersController::class, 'export'])->name('readers.export');
     Route::get('/export/prospects', [App\Http\Controllers\AdminProspectsController::class, 'export'])->name('prospects.export');
     Route::post('search', 'App\Http\Controllers\AdminUsersController@search_item');

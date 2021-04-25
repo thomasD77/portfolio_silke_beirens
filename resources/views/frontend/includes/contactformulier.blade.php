@@ -9,18 +9,18 @@
             @csrf
             <div  class="row">
                 <div class="col-12 col-lg-4">
-                    <input name="name" type="text" class="form-control my-1 outlinetest" placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="input1" name="name" type="text" class="form-control my-1 styleinput" placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <div class="col-12 col-lg-4">
-                    <input name="email" type="text" class="form-control my-1" placeholder="Your Email" aria-label="email" aria-describedby="basic-addon1">
+                    <input id="input2" name="email" type="text" class="form-control my-1" placeholder="Your Email" aria-label="email" aria-describedby="basic-addon1">
                 </div>
                 <div class="col-12 col-lg-4">
-                    <input name="subject" type="text" class="form-control my-1" placeholder="Subject" aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="input3" name="subject" type="text" class="form-control my-1" placeholder="Subject" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>
             <div class="row my-3">
                 <div class="col-12">
-                    <textarea name="message" class="form-control textfield" rows="10" cols="50" placeholder="Your message here" aria-label="With textarea"></textarea>
+                    <textarea id="input4" name="message" class="form-control textfield" rows="10" cols="50" placeholder="Your message here" aria-label="With textarea"></textarea>
                 </div>
             </div>
             <div class="row">

@@ -2,53 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Avatar_groen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Belastingen gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Bio-ethiek gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Cultuur en media gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Democratie en overheid gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Dierenwelzijn gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Diverse samenleving gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Economie gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Energie gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Europa gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Euthanasie, abortus en  gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Financiele sector gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Gezondheidszorg gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Holibi's en transgender gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Internationaal gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Kinderen en jongeren gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Klimaat gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Migratie en asiel gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Milieuvervuiling gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Mobiliteit en verkeersveiligheid gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Natuur, biodiversiteit en welzijn gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Onderwijs_gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Ouderen gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Pensioenen gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Ruimtelijke ontwikkeling gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Silke_psd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Staatshervorming gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Veiligheid en justitie gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Voeding en landbouw gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Werk gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Wonen gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/Zorg en welzijn gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/silke_strand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/logo_footer_groen.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontendController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/front-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/front-app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/front-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/front-app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/images/groen_logo2.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/contactformulier.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/contactformulier.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,20 +177,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sidebar" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\frontend" />
-      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\layouts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64.2\www\portfolio_silke\public\images\frontend" />
       <recent name="C:\wamp64.2\www\portfolio_silke\public\images\posts" />
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\assets\frontend_assets\images" />
       <recent name="C:\wamp64.2\www\portfolio_silke\public\images\users" />
       <recent name="C:\wamp64.2\www\portfolio_silke\public\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\frontend" />
+      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -249,7 +222,8 @@
       <workItem from="1619244198070" duration="22000" />
       <workItem from="1619248362981" duration="15000" />
       <workItem from="1619250263745" duration="597000" />
-      <workItem from="1619267137833" duration="4203000" />
+      <workItem from="1619267137833" duration="4400000" />
+      <workItem from="1619275208933" duration="8337000" />
     </task>
     <servers />
   </component>
@@ -261,13 +235,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619024356047" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619110003249">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619275457541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619110003249" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619270577442">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619275457541" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619349777204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619270577442" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619349777204" />
   </component>
 </project>

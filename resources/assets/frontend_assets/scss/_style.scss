@@ -178,11 +178,21 @@ header{
 
 .gegevens{
     background: #d3d3d3;
+    .newsstyle{
+        font-family: RobotoBold;
+    }
+    .newsstyle:hover{
+        font-weight: 1500;
+        text-decoration: underline;
+    }
   h3{
     font-size: 1.2rem;
     font-family: RobotoBold;
   }
     p{
+        font-family: RobotoRegular;
+    }
+    a > p{
         font-family: RobotoRegular;
     }
   .emaillabel{
@@ -202,6 +212,7 @@ header{
 }
 footer{
     background: #d3d3d3;
+
 }
 
 h1{
@@ -230,6 +241,7 @@ h1{
         background: rgb(91, 132, 226, 0.2);
         color: $colorWhite;
         border: none;
+        width:350px;
     }
   input::-webkit-input-placeholder {
     color: $colorWhite;
@@ -274,6 +286,16 @@ h1{
     font-size: 16px;
 }
 
+#input1:focus, #input2:focus, #input3:focus, #input4:focus {
+    border-color: black;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+accordion-icon-color{
+    color: red;
+}
+
 /***********************************************************************************************************
                                         SCREENS LARGER THEN MOBILE
 ***********************************************************************************************************/
@@ -296,9 +318,6 @@ h1{
   }
 
 }
-
-
-
 
 
 

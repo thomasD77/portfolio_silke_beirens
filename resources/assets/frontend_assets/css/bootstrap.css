@@ -10814,11 +10814,21 @@ header .navbar-toggler-icon {
 .gegevens {
   background: #d3d3d3;
 }
+.gegevens .newsstyle {
+  font-family: RobotoBold;
+}
+.gegevens .newsstyle:hover {
+  font-weight: 1500;
+  text-decoration: underline;
+}
 .gegevens h3, .gegevens .h3 {
   font-size: 1.2rem;
   font-family: RobotoBold;
 }
 .gegevens p {
+  font-family: RobotoRegular;
+}
+.gegevens a > p {
   font-family: RobotoRegular;
 }
 .gegevens .emaillabel {
@@ -10861,6 +10871,7 @@ h1, .h1 {
   background: rgba(91, 132, 226, 0.2);
   color: #FFFFFF;
   border: none;
+  width: 350px;
 }
 #bereikbaar input::-webkit-input-placeholder {
   color: #FFFFFF;
@@ -10898,6 +10909,15 @@ h1, .h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+#input1:focus, #input2:focus, #input3:focus, #input4:focus {
+  border-color: black;
+  box-shadow: none;
+}
+
+accordion-icon-color {
+  color: red;
 }
 
 /***********************************************************************************************************
