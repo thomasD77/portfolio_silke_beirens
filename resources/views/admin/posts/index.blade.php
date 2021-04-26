@@ -42,7 +42,8 @@
                         <img class="rounded" height="62" width="62" src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
                     </td>
                     <td>{{$post->postcategory->name}}</td>
-                    <td>{{Str::limit($post->body,100)}}</td>
+                    <td>{{substr(strip_tags($post->body),0,100)}}{{strlen(strip_tags($post->body))
+                        > 100 ? "..." : ""}}</td>
                     <td>{{$post->created_at->diffForHumans()}}</td>
                     <td>{{$post->updated_at->diffForHumans()}}</td>
                     <td>{{$post->book}}</td>

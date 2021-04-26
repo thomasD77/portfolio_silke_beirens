@@ -32,7 +32,7 @@ class PostFactory extends Factory
             'photo_id' => 3,
             'title' => $title,
             'slug'=> $slug,
-            'body' => $this->faker->paragraph(15),
+            'body' => $this->faker->text(2500),
         ];
     }
 }

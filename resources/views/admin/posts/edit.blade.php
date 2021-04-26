@@ -18,7 +18,7 @@
             </div>
             <div class="form-group">
                 {!! Form::label('body', 'Body:') !!}
-                {!! Form::textarea('body',$post->body,['class'=>'form-control']) !!}
+                {!! Form::textarea('body',$post->body,['class'=>'form-control', 'id' => 'textarea-editor']) !!}
             </div>
             <div class="form-group">
                 {!! Form::label('photo_id', 'Photo:') !!}

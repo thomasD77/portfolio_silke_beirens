@@ -13,7 +13,7 @@
     </div>
     <div class="form-group">
         {!! Form::label('body', 'Description:') !!}
-        {!! Form::textarea('body',null,['class'=>'form-control']) !!}
+        {!! Form::textarea('body',null,['class'=>'form-control', 'id' => 'textarea-editor']) !!}
     </div>
     <div class="form-group">
         {!! Form::label('photo_id', 'Photo:') !!}
@@ -22,4 +22,5 @@
     <div class="form-group">
     {!! Form::submit('Create Post',['class'=>'btn btn-dark']) !!}
     {!! Form::close() !!}
+
 @stop

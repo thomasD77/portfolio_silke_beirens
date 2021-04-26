@@ -13,7 +13,7 @@
                             <div class="entry-title d-flex justify-content-between">
                                 <h2><a class="text-decoration-none text-dark" href="">{{$post->title}}</a></h2>
                                 <div id="social2" class="d-flex justify-content-end align-items-center">
-                                    <p class="mr-2 mb-0">Share this:</p>
+                                    <p class="mb-0">Share this:</p>
 
                                     <a class="d-flex justify-content-center align-items-center rounded mx-1"
                                        href="https://www.facebook.com/sharer/sharer.php?u={{Request::url()}}&display=popup" target="_blank"><i
@@ -36,7 +36,7 @@
                                 <div><i class="far fa-folder me-2"></i>{{$post->postcategory->name}}</div>
                             </div>
                             <div class="entry-content">
-                                <p>{{$post->body}}</p>
+                                <p>{!! $post->body !!}</p>
                             </div>
                         </div>
                     </div>

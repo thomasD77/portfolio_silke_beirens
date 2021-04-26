@@ -13,4 +13,11 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
+    <script src="https://cdn.tiny.cloud/1/w36e9dttny8177aqexloy5ni99sjimahynut5oe5ggy1p6fo/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea#textarea-editor',
+            menubar: false
+        });
+    </script>
 </head>
