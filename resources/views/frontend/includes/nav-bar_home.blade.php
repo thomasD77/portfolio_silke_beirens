@@ -30,7 +30,7 @@
                     </ul>
                 </div>
                 <div class="col-12 col-lg-3 my-lg-2 d-none d-md-block">
-                    <div id="social" class="d-flex justify-content-around ">
+                    <div id="social" class="d-flex">
                         <a class="d-flex justify-content-center align-items-center"
                            href="https://www.facebook.com/silke.beirens/" target="_blank"><i
                                 class="fab fa-facebook-f" id="facebook"></i></a>

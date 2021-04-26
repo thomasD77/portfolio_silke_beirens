@@ -10811,6 +10811,24 @@ header .navbar-toggler-icon {
   color: white;
 }
 
+#social2 a {
+  font-size: 1rem;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  background: #008d7f;
+}
+
+#social2 a:hover {
+  background: white;
+  color: #008d7f;
+  font-size: 1.3rem;
+}
+
+#social2 p {
+  font-family: RobotoRegular;
+}
+
 .gegevens {
   background: #d3d3d3;
 }
@@ -10924,9 +10942,8 @@ accordion-icon-color {
                                         SCREENS LARGER THEN MOBILE
 ***********************************************************************************************************/
 @media (min-width: 768px) {
-  #social {
-    width: 50%;
-    margin: 0 auto;
+  #social2 {
+    margin-right: 20%;
   }
 }
 @media (min-width: 992px) {

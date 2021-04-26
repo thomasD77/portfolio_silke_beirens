@@ -46,6 +46,7 @@
         </div>
     </div>
 </footer>
-</body>
+<script src="{{ asset('js/share.js') }}"></script>
 <script src="{{asset('js/front-app.js')}}"></script>
+</body>
 </html>

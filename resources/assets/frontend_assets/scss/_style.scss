@@ -173,6 +173,21 @@ header{
     color: white;
 }
 
+#social2 a{
+    font-size: 1rem;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0,141,127);
+}
+#social2 a:hover{
+    background: white;
+    color: rgba(0,141,127);
+    font-size: 1.3rem;
+}
+#social2 p {
+    font-family: RobotoRegular;
+}
 
 
 
@@ -301,9 +316,8 @@ accordion-icon-color{
 ***********************************************************************************************************/
 
 @media (min-width: 768px){
-  #social{
-    width: 50%;
-    margin: 0 auto;
+  #social2{
+    margin-right: 20%;
   }
 }
 
