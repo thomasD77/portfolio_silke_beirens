@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
 use Image;
+use Purifier;
 
 class AdminPostsController extends Controller
 {
@@ -62,7 +63,7 @@ class AdminPostsController extends Controller
             //
             $post = new Post();
             $post->title = $request->title;
-            $post->body = $request->body;
+            $post->body = Purifier::clean($request->body);
             $post->postcategory_id = $request->postcategories[0];
 
 
@@ -137,7 +138,7 @@ class AdminPostsController extends Controller
 
         $post = Post::findOrFail($id);
         $post->title = $request->title;
-        $post->body = $request->body;
+        $post->body = Purifier::clean($request->body);
         $post->postcategory_id = $request->postcategory_id;
 
         if($file = $request->file('photo_id')){

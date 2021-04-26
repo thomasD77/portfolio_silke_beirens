@@ -12,7 +12,8 @@
                                     <h2 class="mt-2"><a class="text-decoration-none text-dark" href="">{{Str::limit($post->title, 35)}}</a></h2>
                                 </div>
                                 <div class="card-body px-0  pt-0 ">
-                                    <p class="mb-2">{{Str::limit($post->body, 200)}}</p>
+                                    <p class="mb-2">{{substr(strip_tags($post->body),0,200)}}{{strlen(strip_tags($post->body))
+                        > 200 ? "..." : ""}}</p>
                                     <div><i class="far fa-folder me-2"></i>{{$post->postcategory->name}}</div>
                                     <div><i class="far fa-calendar-alt me-2"></i>{{$post->created_at->diffForHumans()}}</div>
                                 </div>

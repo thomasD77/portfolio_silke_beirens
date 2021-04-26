@@ -181,6 +181,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Jorenvh\Share\Providers\ShareServiceProvider::class,
+        Mews\Purifier\PurifierServiceProvider::class,
 
     ],
 
@@ -241,6 +242,7 @@ return [
         'Image' => Intervention\Image\Facades\Image::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Share' => Jorenvh\Share\ShareFacade::class,
+        'Purifier' => Mews\Purifier\Facades\Purifier::class,
 
     ],
 

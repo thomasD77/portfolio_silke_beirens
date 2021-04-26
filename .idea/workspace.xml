@@ -2,17 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/posts/silke.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio_silke.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio_silke.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PostFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/front-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/front-app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/PhotosTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/PhotosTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617866984address_crud2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617866992address_crud2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867161address_crud2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867191about.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867241about.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867274address_crud1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867309address_crud1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867353address_crud1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867596cart.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617948364aos4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1617949125list1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619104414imageintervention3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112551InnovaSolutions.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112568InnovaSolutions.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112766zoom2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112796cercle.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112925landscape.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619113015landscape.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619113118landscape.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619126744diving.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166004anderlecht.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166014iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166022corona.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166032Thomas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166044Company_name.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619174014groen_logo.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619183414groen_logo.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619183509noorwegen.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619183631noorwegen.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619184020groen_logo2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619184057groen_logo.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619184351diving.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/1619184409noorwegen.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/noorwegen.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/products/1618416194corona.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/products/PRODUCT1618416194corona.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/products/SMALL1618416194corona.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/products/deepwater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/products/user_thomas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +196,7 @@
       <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
       <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
       <path value="$PROJECT_DIR$/vendor/jorenvanhocht/laravel-share" />
+      <path value="$PROJECT_DIR$/vendor/mews/purifier" />
     </include_path>
   </component>
   <component name="ProjectId" id="1rRN5j8YTu8p5wlB9rziliWVQkj" />
@@ -169,20 +208,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tinymce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/posts" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64.2\www\portfolio_silke\public\images\frontend" />
-      <recent name="C:\wamp64.2\www\portfolio_silke\public\images\posts" />
-      <recent name="C:\wamp64.2\www\portfolio_silke\resources\assets\frontend_assets\images" />
-      <recent name="C:\wamp64.2\www\portfolio_silke\public\images\users" />
-      <recent name="C:\wamp64.2\www\portfolio_silke\public\fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\frontend" />
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\layouts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64.2\www\portfolio_silke\public\images\posts" />
+      <recent name="C:\wamp64.2\www\portfolio_silke\public\images\frontend" />
+      <recent name="C:\wamp64.2\www\portfolio_silke\resources\assets\frontend_assets\images" />
+      <recent name="C:\wamp64.2\www\portfolio_silke\public\images\users" />
+      <recent name="C:\wamp64.2\www\portfolio_silke\public\fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -217,7 +256,7 @@
       <workItem from="1619267137833" duration="4400000" />
       <workItem from="1619275208933" duration="9354000" />
       <workItem from="1619420517758" duration="8000" />
-      <workItem from="1619450782370" duration="7604000" />
+      <workItem from="1619450782370" duration="9912000" />
     </task>
     <servers />
   </component>
