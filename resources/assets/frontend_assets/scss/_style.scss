@@ -192,6 +192,7 @@ header{
 
 
 
+
 .gegevens{
     background: #d3d3d3;
     .newsstyle{
@@ -225,6 +226,10 @@ header{
     background: #D9D7D7;
     outline-color: #D9D7D7;
   }
+    #logofooter{
+        width: 50%;
+    }
+
 }
 footer{
     background: #d3d3d3;
@@ -257,11 +262,11 @@ h1{
         background: rgb(91, 132, 226, 0.2);
         color: $colorWhite;
         border: none;
-        width:350px;
     }
   input::-webkit-input-placeholder {
     color: $colorWhite;
   }
+
 }
 
 
@@ -320,6 +325,12 @@ accordion-icon-color{
   #social2{
     margin-right: 20%;
   }
+    .gegevens{
+        #logofooter{
+            width: 50%;
+        }
+    }
+
 }
 
 @media (min-width: 992px){
@@ -331,8 +342,14 @@ accordion-icon-color{
           color: white;
       }
   }
+    #bereikbaar{
+        #inputmail {
+            width:350px;
+        }
+    }
 
 }
+
 
 
 

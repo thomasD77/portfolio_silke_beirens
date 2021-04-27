@@ -3,15 +3,17 @@
     <div class="row">
         <nav class="navbar navbar-expand-lg pe-0">
             <div class="col-12 col-lg-10 offset-lg-1 d-md-flex align-items-center px-0">
+                <div class="navbar-header d-flex justify-content-between">
                     <a class="navbar-brand ps-0 ps-lg-3 me-4 py-0 text-uppercase" id="logotitle">Silke Beirens</a>
                     @auth()
-                        <a class="d-none d-sm-block" href="{{route('admin.home')}}">
+                        <a class="d-none d-lg-block" href="{{route('admin.home')}}">
                         <span class="badge badge-dark  shadow my-2 tools p-2 justify-content-end">
                             <i class="fas fa-door-open"></i></span></a>
                     @endauth
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler mr-4 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                </div>
                     <div class="collapse navbar-collapse ms-3 ms-lg-0 d-lg-flex justify-content-lg-center" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -28,7 +30,7 @@
                             </li>
                         </ul>
                     </div>
-                <div class="col-12 col-lg-3 my-lg-2 d-none d-md-block">
+                <div class="col-12 col-lg-3 my-lg-2 d-none d-lg-block">
                     <div id="social" class="d-flex">
                         <a class="d-flex justify-content-center align-items-center"
                            href="https://www.facebook.com/silke.beirens/" target="_blank"><i

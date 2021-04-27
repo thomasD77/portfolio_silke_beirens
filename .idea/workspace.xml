@@ -2,55 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/posts/silke.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio_silke.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio_silke.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/PhotosTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/PhotosTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617866984address_crud2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617866992address_crud2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867161address_crud2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867191about.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867241about.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867274address_crud1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867309address_crud1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867353address_crud1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617867596cart.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617948364aos4.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1617949125list1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619104414imageintervention3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112551InnovaSolutions.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112568InnovaSolutions.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112766zoom2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112796cercle.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619112925landscape.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619113015landscape.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619113118landscape.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619126744diving.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166004anderlecht.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166014iphone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166022corona.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166032Thomas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619166044Company_name.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619174014groen_logo.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619183414groen_logo.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619183509noorwegen.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619183631noorwegen.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619184020groen_logo2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619184057groen_logo.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619184351diving.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/1619184409noorwegen.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/posts/noorwegen.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/1618416194corona.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/PRODUCT1618416194corona.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/SMALL1618416194corona.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/deepwater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/products/user_thomas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/front-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/front-app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/front-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/front-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/custom2.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/custom2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar_home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -256,7 +221,9 @@
       <workItem from="1619267137833" duration="4400000" />
       <workItem from="1619275208933" duration="9354000" />
       <workItem from="1619420517758" duration="8000" />
-      <workItem from="1619450782370" duration="9912000" />
+      <workItem from="1619450782370" duration="9968000" />
+      <workItem from="1619511637530" duration="8000" />
+      <workItem from="1619537297119" duration="8250000" />
     </task>
     <servers />
   </component>
@@ -272,9 +239,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619275457541" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619454913552">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619511642798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619454913552" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619511642798" />
+    <state x="1983" y="78" width="1164" height="811" key="dock-window-1" timestamp="1619543786595">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="1983" y="78" width="1164" height="811" key="dock-window-1/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619543786595" />
   </component>
 </project>

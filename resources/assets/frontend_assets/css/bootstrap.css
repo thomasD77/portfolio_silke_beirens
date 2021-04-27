@@ -10864,6 +10864,9 @@ header .navbar-toggler-icon {
   background: #D9D7D7;
   outline-color: #D9D7D7;
 }
+.gegevens #logofooter {
+  width: 50%;
+}
 
 footer {
   background: #d3d3d3;
@@ -10890,7 +10893,6 @@ h1, .h1 {
   background: rgba(91, 132, 226, 0.2);
   color: #FFFFFF;
   border: none;
-  width: 350px;
 }
 #bereikbaar input::-webkit-input-placeholder {
   color: #FFFFFF;
@@ -10946,6 +10948,10 @@ accordion-icon-color {
   #social2 {
     margin-right: 20%;
   }
+
+  .gegevens #logofooter {
+    width: 50%;
+  }
 }
 @media (min-width: 992px) {
   .navbar-nav > li > a:hover {
@@ -10953,5 +10959,9 @@ accordion-icon-color {
     border-radius: 25px;
     background-color: black;
     color: white;
+  }
+
+  #bereikbaar #inputmail {
+    width: 350px;
   }
 }
