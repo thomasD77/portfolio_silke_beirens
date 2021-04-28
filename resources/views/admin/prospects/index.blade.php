@@ -1,6 +1,6 @@
 @extends('layouts.admin_template')
 @section('content')
-    <h1><span class="badge mosgroen display-1 shadow"><i class="fas fa-fingerprint pr-2"></i>Readers - Contactform</span></h1>
+    <h1><span class="badge mosgroen display-1 shadow"><i class="fas fa-fingerprint pr-2"></i>Subscribers - Contactform</span></h1>
     <p>Displaying {{$prospects->count()}} of {{ $prospects->total() }} order(s).</p>
 
     @if(Session::has('prospect_message'))

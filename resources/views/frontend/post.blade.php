@@ -33,7 +33,7 @@
                             </div>
                             <div class="entry-meta d-flex w-75 justify-content-between my-3">
                                 <div><i class="far fa-calendar-alt me-2"></i>{{$post->created_at->diffForHumans()}}</div>
-                                <div><i class="far fa-folder me-2"></i>{{$post->postcategory->name}}</div>
+                                <div><i class="far fa-folder me-2"></i>{{$post->postcategory ? $post->postcategory->name : ""}}</div>
                             </div>
                             <div class="entry-content">
                                 <p>{!! $post->body !!}</p>

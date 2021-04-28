@@ -1,6 +1,6 @@
 @extends('layouts.admin_template')
 @section('content')
-    <h1><span class="badge mosgroen display-1 shadow"> <i class="far fa-newspaper pr-2"></i>Subscribers - Newsletter</span></h1>
+    <h1><span class="badge mosgroen display-1 shadow"> <i class="far fa-newspaper pr-2"></i>Readers - Newsletter</span></h1>
     <p>Displaying {{$readers->count()}} of {{ $readers->total() }} reader(s).</p>
 
     @if(Session::has('reader_message'))

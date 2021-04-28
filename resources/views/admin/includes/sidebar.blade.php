@@ -107,7 +107,7 @@
                 </a>
                 <div id="collapseProspects" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{route('prospects.index')}}"><i class="far fa-check-circle pr-3"></i> Readers</a>
+                        <a class="collapse-item" href="{{route('prospects.index')}}"><i class="far fa-check-circle pr-3"></i>Subscribers</a>
                     </div>
                 </div>
             </li>
@@ -126,7 +126,7 @@
                 </a>
                 <div id="collapseNewsletter" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{route('readers.index')}}"><i class="far fa-check-circle pr-3"></i>Subscribers</a>
+                        <a class="collapse-item" href="{{route('readers.index')}}"><i class="far fa-check-circle pr-3"></i>Readers</a>
                     </div>
                 </div>
             </li>

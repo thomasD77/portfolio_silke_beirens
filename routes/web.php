@@ -100,12 +100,13 @@ Route::group(['prefix'=>'admin', 'middleware'=>[ 'admin', 'auth', 'verified']], 
     Route::resource('/faqs', App\Http\Controllers\AdminFAQSController::class);
     Route::get('faqs/restore/{id}', 'App\Http\Controllers\AdminFAQSController@FAQRestore')->name('admin.FAQRestore');
 });
+Route::resource('/admin/readers', App\Http\Controllers\AdminReadersController::class);
+Route::post('admin/newsletter', 'App\Http\Controllers\AdminReadersController@store');
 
-Route::resource('/readers', App\Http\Controllers\AdminReadersController::class);
-Route::post('newsletter', 'App\Http\Controllers\AdminReadersController@store');
 
 // Backend Customer
 Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function(){
+
     Route::get('/', [App\Http\Controllers\AdminHomeController::class, 'index'])->name('admin.home');
     Route::resource('orders', App\Http\Controllers\AdminOrdersController::class);
     Route::resource('posts', App\Http\Controllers\AdminPostsController::class);

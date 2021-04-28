@@ -3,7 +3,7 @@
     <div class="row">
         <nav class="navbar navbar-expand-lg pe-0">
             <div class="col-12 col-lg-10 offset-lg-1 d-md-flex align-items-center px-0">
-                <div class="navbar-header d-flex justify-content-between">
+                <div class="navbar-header d-flex justify-content-between align-items-center justify-content-lg-start">
                     <div class="d-none d-lg-block w-15">
                         <img class="img-fluid" src="{{asset('images/frontend/Avatar_groen.png')}}" alt="logo_groen"></div>
                     <a class="navbar-brand ps-0 ps-lg-3 me-4 py-0 text-uppercase" id="logotitle">Silke Beirens</a>

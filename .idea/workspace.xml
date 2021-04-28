@@ -3,19 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/front-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/front-app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/front-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/front-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/custom2.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/instagram/js/custom2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/prospects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/prospects/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/readers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/readers/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +220,14 @@
       <workItem from="1619420517758" duration="8000" />
       <workItem from="1619450782370" duration="9968000" />
       <workItem from="1619511637530" duration="8000" />
-      <workItem from="1619537297119" duration="8250000" />
+      <workItem from="1619537297119" duration="8571000" />
+      <workItem from="1619589431499" duration="98000" />
+      <workItem from="1619589744915" duration="15000" />
+      <workItem from="1619598562368" duration="140000" />
+      <workItem from="1619599059340" duration="58000" />
+      <workItem from="1619599150289" duration="85000" />
+      <workItem from="1619600049499" duration="28000" />
+      <workItem from="1619618119750" duration="2306000" />
     </task>
     <servers />
   </component>
@@ -239,10 +243,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619275457541" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619511642798">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619600076026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619511642798" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619600076026" />
     <state x="1983" y="78" width="1164" height="811" key="dock-window-1" timestamp="1619543786595">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>

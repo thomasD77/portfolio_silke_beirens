@@ -41,11 +41,12 @@
                     <td>
                         <img class="rounded" height="62" width="62" src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
                     </td>
-                    <td>{{$post->postcategory->name}}</td>
+                    <td>{{$post->postcategory? $post->postcategory->name : "No Category exist"}}</td>
                     <td>{{substr(strip_tags($post->body),0,100)}}{{strlen(strip_tags($post->body))
                         > 100 ? "..." : ""}}</td>
                     <td>{{$post->created_at->diffForHumans()}}</td>
                     <td>{{$post->updated_at->diffForHumans()}}</td>
+                    @if($post->deleted_at == null)
                     <td>{{$post->book}}</td>
                     <td>
                             <form action="{{action('App\Http\Controllers\AdminPostsController@datePost')}}"
@@ -82,6 +83,10 @@
                             </form>
                         @endif
                     </td>
+                    @else
+                        <td class="text-center"><i class="fa-2x far fa-stop-circle text-danger"></i></td>
+                        <td class="text-center"><i class="fa-2x far fa-stop-circle text-danger"></i></td>
+                    @endif
                     <td>{{$post->deleted_at}}</td>
                     <td>
                         @if($post->deleted_at != null)

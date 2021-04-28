@@ -42,9 +42,6 @@
     <hr class=" m-0">
     <p class="text-center py-2 m-0">Copyright &copy; 2021 | Silke Beirens</p>
 </footer>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-<script src="{{asset('js/front-app.js')}}"></script>
 <script>
     //Get the button:
     mybutton = document.getElementById("myBtn");
@@ -66,5 +63,9 @@
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 </script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+<script src="{{asset('js/front-app.js')}}"></script>
+
 </body>
 </html>
