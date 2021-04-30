@@ -36,7 +36,7 @@
                         <div class="card-body px-0  pt-0 ">
                             <p class="mb-2">{{substr(strip_tags($post->body),0,200)}}{{strlen(strip_tags($post->body))
                         > 200 ? "..." : ""}}</p>
-                            <div><i class="far fa-folder me-2"></i>{{$post->postcategory->name}}</div>
+                            <div><i class="far fa-folder me-2"></i>{{$post->postcategory ? $post->postcategory->name : ""}}</div>
                             <div><i class="far fa-calendar-alt me-2"></i>{{$post->created_at->diffForHumans()}}</div>
                         </div>
                         <div class="card-footer border-0 px-0" style="background-color:#f8fafc">
