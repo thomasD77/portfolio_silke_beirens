@@ -40,6 +40,7 @@ Route::post('/updataPrice', 'App\Http\Controllers\FrontendController@updatePrice
 
 
 Route::post('/contact', 'App\Http\Controllers\ContactController@store')->name('contact');
+Route::post('/email', 'App\Http\Controllers\EmailsController@store')->name('email');
 
 
 Route::get('/addToCart/{id}','App\Http\Controllers\FrontendController@addToCart')->name('addToCart');

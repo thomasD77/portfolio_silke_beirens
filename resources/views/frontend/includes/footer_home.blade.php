@@ -9,7 +9,47 @@
                     <p>Silke.Beirens@oostende.be</p>
                     <p>T 059 25 84 59</p>
                     <p>Graag contact opnemen? Stuur ons een e-mail.</p>
-                    <a href="mailto:Silke.Beirens@oostende.be"><button type="submit" class="button rounded">Email Us</button></a>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="button rounded"  data-bs-toggle="modal" data-bs-target="#exampleModal">Email Us</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">To: Silke.Beirens@oostende.be</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\EmailsController@store')}}" method="post">
+                                        @csrf
+                                        <div  class="row">
+                                            <div class="col-12">
+                                                <input id="input1" name="name" type="text" class="form-control my-1 styleinput" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                            <div class="col-12">
+                                                <input id="input2" name="email" type="text" class="form-control my-1" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
+                                            </div>
+                                            <div class="col-12">
+                                                <input id="input3" name="subject" type="text" class="form-control my-1" placeholder="Subject" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-12">
+                                                <textarea id="input4" name="body" class="form-control textfield" rows="10" cols="50" placeholder="Your message here..." aria-label="With textarea"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="button rounded">Send to Us</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">About Us</h3>
