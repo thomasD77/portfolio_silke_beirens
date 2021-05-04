@@ -92,22 +92,23 @@ Route::group(['prefix'=>'admin', 'middleware'=>[ 'admin', 'auth', 'verified']], 
     Route::get('restore/orderdetail/{orderdetail}', 'App\Http\Controllers\AdminOrderdetailsController@orderdetailsRestore')->name('admin.orderdetailsRestore');
     Route::resource('addresses', App\Http\Controllers\AdminAddressesController::class);
     Route::get('restore/address/{address}', 'App\Http\Controllers\AdminAddressesController@addressRestore')->name('admin.addressRestore');
-    Route::resource('/prospects', App\Http\Controllers\AdminProspectsController::class);
+
     Route::get('/product/colors', 'App\Http\Controllers\AdminProductColorsController@index')->name('admin.product.colors');
     Route::resource('/promos', App\Http\Controllers\AdminPromosController::class);
-    Route::resource('/newsletters', App\Http\Controllers\AdminNewslettersController::class);
-    Route::post('/newsletter/send', 'App\Http\Controllers\AdminNewslettersController@newsletter_send_email')->name('newsletter_send_email');
     Route::get('/newsletters/restore/{id}', 'App\Http\Controllers\AdminNewslettersController@newsletterRestore')->name('admin.newsletterRestore');
-    Route::resource('/faqs', App\Http\Controllers\AdminFAQSController::class);
-    Route::get('faqs/restore/{id}', 'App\Http\Controllers\AdminFAQSController@FAQRestore')->name('admin.FAQRestore');
 });
+
 Route::resource('/admin/readers', App\Http\Controllers\AdminReadersController::class);
 Route::post('admin/newsletter', 'App\Http\Controllers\AdminReadersController@store');
 
 
 // Backend Customer
 Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function(){
-
+    Route::post('/newsletter/send', 'App\Http\Controllers\AdminNewslettersController@newsletter_send_email')->name('newsletter_send_email');
+    Route::resource('/newsletters', App\Http\Controllers\AdminNewslettersController::class);
+    Route::resource('/faqs', App\Http\Controllers\AdminFAQSController::class);
+    Route::get('faqs/restore/{id}', 'App\Http\Controllers\AdminFAQSController@FAQRestore')->name('admin.FAQRestore');
+    Route::resource('/prospects', App\Http\Controllers\AdminProspectsController::class);
     Route::get('/', [App\Http\Controllers\AdminHomeController::class, 'index'])->name('admin.home');
     Route::resource('orders', App\Http\Controllers\AdminOrdersController::class);
     Route::resource('posts', App\Http\Controllers\AdminPostsController::class);

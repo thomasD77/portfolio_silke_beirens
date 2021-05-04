@@ -13,10 +13,6 @@
                 {!! Form::text('name',$user->name,['class'=>'form-control']) !!}
             </div>
             <div class="form-group">
-                {!! Form::label('username', 'Username:') !!}
-                {!! Form::text('username',$user->username,['class'=>'form-control']) !!}
-            </div>
-            <div class="form-group">
                 {!! Form::label('email', 'E-mail:') !!}
                 {!! Form::text('email',$user->email,['class'=>'form-control']) !!}
             </div>

@@ -19,7 +19,6 @@ class UsersTableSeeder extends Seeder
         //
         DB::table('users')->insert([
             'name'=>'Thomas',
-            'username'=>'ThomasD7',
             'email'=>'thomas.demeulenaere@hotmail.com',
             'email_verified_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'photo_id'=> 1,

@@ -56,7 +56,6 @@ class AdminUsersController extends Controller
             //
             $user = new User();
             $user->name= $request->name;
-            $user->username= $request->username;
             $user->email = $request->email;
 
             if($file = $request->file('photo_id')){

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\FAQ;
 use App\Models\Order;
 use App\Models\Post;
 use App\Models\Product;
@@ -34,6 +35,7 @@ class AdminHomeController extends Controller
         $readers = Reader::paginate(10);
         $prospects = Prospect::paginate(10);
         $posts = Post::paginate(10);
-        return view('admin.includes.admin' , compact('users', 'readers', 'posts', 'prospects'));
+        $faqs = FAQ::paginate(10);
+        return view('admin.includes.admin' , compact('users', 'readers', 'posts', 'prospects', 'faqs'));
     }
 }

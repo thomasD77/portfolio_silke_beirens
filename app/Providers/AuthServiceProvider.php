@@ -40,15 +40,11 @@ class AuthServiceProvider extends ServiceProvider
             return $user = $user->permissions()->contains($permission);
         });
 
-        Gate::define('isCustomer', function ($user){
-            $permission = 'isCustomer';
+        Gate::define('isPublisher', function ($user){
+            $permission = 'isPublisher';
             return $user = $user->permissions()->contains($permission);
         });
 
-        Gate::define('isSubscriber', function ($user){
-            $permission = 'isSubscriber';
-            return $user = $user->permissions()->contains($permission);
-        });
 
 
         // This is a Gate made with Function in User.php

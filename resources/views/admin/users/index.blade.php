@@ -18,7 +18,6 @@
             <th scope="col">Id</th>
             <th scope="col">Photo</th>
             <th scope="col" >Name</th>
-            <th scope="col" >Username</th>
             <th scope="col">E-mail</th>
             <th scope="col">Role</th>
             <th scope="col">Created</th>
@@ -39,7 +38,6 @@
                         <img class="rounded-circle" height="62" width="62" src="{{$user->photo ? asset('images/users') . $user->photo->file : 'http://placehold.it/62x62'}}" alt="{{$user->name}}">
                     </td>
                     <td><a href="{{route('users.edit', $user->id)}}">{{$user->name}}</a></td>
-                    <td>{{$user->username ? $user->username : 'No username'}}</td>
                     <td>{{$user->email ? $user->email : 'No email'}}</td>
                     <td>@foreach($user->roles as $role)
                           <span class="badge badge-pill badge-success">{{$role->name}}</span>
