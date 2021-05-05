@@ -26,7 +26,6 @@ class UsersEditRequest extends FormRequest
         return [
             //
             'name'=>'required',
-            'username'=>'required|string',
             'email'=>'required',
         ];
     }
@@ -35,7 +34,6 @@ class UsersEditRequest extends FormRequest
         return[
             'email.required'=> 'Email is required!',
             'name.required'=>'Name is required',
-            'username.required'=>'Username is required',
         ];
     }
 }

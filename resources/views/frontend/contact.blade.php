@@ -9,8 +9,8 @@
             <div class="col-md-8 offset-md-2">
                 @if(Session::has('contactform_message'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        <h4 class="alert-heading">Well done!</h4>
-                        <p class="alert-success">Thanks for your interest in our Company!</p>
+                        <h4 class="alert-heading">Bedankt!</h4>
+                        <p class="alert-success">Het contactforumlier staat klaar voor behandeling.</p>
                         <hr>
                         <p class="mb-0 alert-success">{{session('contactform')}}</p>
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">

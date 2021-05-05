@@ -7,9 +7,14 @@ use App\Http\Requests\NewsletterRequest;
 use App\Models\Reader;
 use App\Models\Review;
 use Illuminate\Http\Request;
+
+use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
+
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
 
 
@@ -47,7 +52,7 @@ class AdminReadersController extends Controller
     public function store(request $request)
     {
         //
-
+            $url = URL::previous();
             if($request->newsletter != null){
 
                 $data =[
@@ -56,13 +61,11 @@ class AdminReadersController extends Controller
                 Reader::create($data);
                 Session::flash('readers_message', 'Thanks! You signed up for our Newsletter');
             }else{
-                return Redirect::to('http://localhost/portfolio_silke/public/' . "#form");
+
+                return Redirect::to($url . "#form");
             }
 
-
-
-
-        return Redirect::to('http://localhost/portfolio_silke/public/' . "#form");
+        return Redirect::to($url . "#form");
     }
 
     /**

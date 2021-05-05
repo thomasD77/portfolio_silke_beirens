@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
+
 class Reader extends Model
 {
     use HasFactory;
@@ -14,4 +15,5 @@ class Reader extends Model
     protected $fillable = [
         'email',
     ];
+
 }

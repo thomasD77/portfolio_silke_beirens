@@ -73,7 +73,7 @@ Route::get('login/facebook/callback', [App\Http\Controllers\Auth\LoginController
 Auth::routes(['verify'=> true]);
 
 // Backend Admin
-Route::group(['prefix'=>'admin', 'middleware'=>[ 'admin', 'auth', 'verified']], function(){
+Route::group(['prefix'=>'admin', 'middleware'=>[ 'auth', 'verified']], function(){
     Route::resource('users', App\Http\Controllers\AdminUsersController::class);
     Route::get('restore/{user}', 'App\Http\Controllers\AdminUsersController@userRestore')->name('admin.userRestore');
     Route::resource('roles', App\Http\Controllers\AdminRolesController::class);

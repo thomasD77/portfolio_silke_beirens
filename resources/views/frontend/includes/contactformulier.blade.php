@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-12 col-lg-8 offset-lg-2">
         <h2 class="text-center mt-lg-5">Get In Touch With Us</h2>
-        <p class="text-center mb-lg-4">Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-            <br> voluptas sit aspernatur aut </p>
+        <p class="text-center mb-lg-4">Vul hierbeneden ons contactformulier in. <br> Na het behandelen van uw bericht nemen
+        we contact met u op.</p>
 
         @include('admin.includes.form_error')
         <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\ContactController@store')}}" method="post">

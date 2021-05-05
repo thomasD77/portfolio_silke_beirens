@@ -56,7 +56,6 @@
                         <h2 class="text-uppercase text-white">Stay Connected</h2>
                         <p class="text-white">Subscribe to our newsleter and stay up to date with <br>
                             latest offers and upcoming trends</p>
-                        <p> @include('admin.includes.form_error')</p>
                     </div>
                     <div class="col-md-6">
                         <div id="form" class="input-group mb-3">
@@ -67,11 +66,8 @@
                                     <button class="my-lg-0 py-1 btn-dark rounded" type="submit" id="btnnewsletter">Send</button>
                                 </div>
                                 @if(Session::has('readers_message'))
-                                    <div class="alert alert-dark alert-dismissible fade show mt-5" role="alert">
+                                    <div class="alert alert-dark alert-dismissible fade show mt-4" role="alert">
                                         <p class="mb-0 alert-dark">{{session('readers_message')}}</p>
-                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                            <span aria-hidde="true">&times;</span>
-                                        </button>
                                     </div>
                                 @endif
                             </form>

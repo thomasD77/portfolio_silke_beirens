@@ -11,6 +11,7 @@ use App\Models\Reader;
 use App\Models\Review;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AdminHomeController extends Controller
 {
@@ -31,11 +32,12 @@ class AdminHomeController extends Controller
      */
     public function index()
     {
+        $user = Auth::user();
         $users = User::paginate(10);
         $readers = Reader::paginate(10);
         $prospects = Prospect::paginate(10);
         $posts = Post::paginate(10);
         $faqs = FAQ::paginate(10);
-        return view('admin.includes.admin' , compact('users', 'readers', 'posts', 'prospects', 'faqs'));
+        return view('admin.includes.admin' , compact('users', 'user', 'readers', 'posts', 'prospects', 'faqs'));
     }
 }
