@@ -33,7 +33,7 @@
                 <div class="col-12 col-lg-3 my-lg-2 d-none d-lg-block">
                     <div id="social" class="d-flex">
                         <a class="d-flex justify-content-center align-items-center"
-                           href="https://www.facebook.com/silke.beirens/" target="_blank"><i
+                           href="https://www.facebook.com/silbeirens" target="_blank"><i
                                 class="fab fa-facebook-f" id="facebook"></i></a>
                         <a class="d-flex justify-content-center align-items-center"
                            href="https://twitter.com/silkebeirens" target="_blank"><i

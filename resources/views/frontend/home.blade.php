@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h2 class="text-uppercase text-white">Stay Connected</h2>
-                        <p class="text-white">Subscribe to our newsleter and stay up to date with <br>
+                        <p class="text-white">Subscribe to our newsletter and stay up to date with <br>
                             latest offers and upcoming trends</p>
                     </div>
                     <div class="col-md-6">
