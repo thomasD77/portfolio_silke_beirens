@@ -62,10 +62,10 @@ class AdminReadersController extends Controller
                 Session::flash('readers_message', 'Thanks! You signed up for our Newsletter');
             }else{
 
-                return Redirect::to($url . "#form");
+                return Redirect::to($url . "#anchor");
             }
 
-        return Redirect::to($url . "#form");
+        return Redirect::to($url . "#anchor");
     }
 
     /**

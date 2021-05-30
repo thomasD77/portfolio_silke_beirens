@@ -3,8 +3,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 d-flex flex-column">
-
-                <img class="img-fluid " src="{{asset('images/frontend/silke_psd.jpg')}}" alt="">
+                <img class="img-fluid " src="{{asset('images/frontend/Silke_psd.jpg')}}" alt="">
         </div>
     </div>
 </div>
@@ -48,6 +47,7 @@
             </div>
         </div>
     </section>
+    <div id="anchor"></div>
     <section class="container-fluid my-5">
         <div class="row px-0 py-5" id="bereikbaar">
             <div class="col-md-10 offset-md-1">
