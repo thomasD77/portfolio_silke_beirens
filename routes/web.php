@@ -29,11 +29,8 @@ Route::get('auth/{driver}/callback', [SocialProviderController::class, 'handlePr
     return view('layouts.home');
 });*/
 
-Route::get('/', function () {
-    return view('construction');
-});
 
-/*Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');*/
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/promo/selector/{id}', 'App\Http\Controllers\HomeController@promo_selector')->name('productsPerPromo');
 
 
