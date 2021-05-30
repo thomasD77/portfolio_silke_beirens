@@ -20,11 +20,6 @@ class CreateRolesTable extends Migration
             $table->softDeletes();
         });
 
-        DB::table('roles')->insert([
-            'name' => 'administrator',
-            'role_id' => 'publisher'
-        ]);
-
         Schema::create('user_role', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id');
@@ -35,10 +30,6 @@ class CreateRolesTable extends Migration
             $table->foreign('role_id')->references('id')->on('roles')->onDelete('cascade');
         });
 
-        DB::table('user_role')->insert([
-            'user_id' => 1,
-            'role_id' => 1
-        ]);
     }
 
     /**
