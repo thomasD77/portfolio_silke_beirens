@@ -9,7 +9,6 @@
 // Frontend JS
 require('../../resources/assets/frontend_assets/js/jquery.min');
 require('../../resources/assets/frontend_assets/js/bootstrap.bundle.min');
-require('../../resources/assets/frontend_assets/js/aos');
 require('../../resources/assets/frontend_assets/js/all');
 
 
@@ -27,11 +26,6 @@ require('../../resources/assets/frontend_assets/instagram/js/magnific.min');
 
 
 
-
-
-// AOS
-window.AOS = require('AOS');
-AOS.init();
 
 
 
