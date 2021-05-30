@@ -70,7 +70,7 @@ class AdminFAQSController extends Controller
     public function edit($id)
     {
         //
-        $FAQ = FAQ::findOrfail($id);
+        $FAQ = FAQ::findOrFail($id);
         return view('admin.faqs.edit', compact('FAQ'));
     }
 
