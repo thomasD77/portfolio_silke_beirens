@@ -71,7 +71,7 @@ class AdminFAQSController extends Controller
     {
         //
         $FAQ = FAQ::findOrFail($id);
-        return view('admin.faqs.create', compact('FAQ'));
+        return view('admin.FAQS.edit', compact('FAQ'));
     }
 
     /**

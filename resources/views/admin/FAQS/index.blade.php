@@ -28,7 +28,7 @@
             @foreach($FAQS as $FAQ)
                 <tr>
                     <td>{{$FAQ->id}}</td>
-                    <td><a href="{{route('faqs.create', $FAQ->id)}}">{{$FAQ->questions}}</a></td>
+                    <td><a href="{{route('faqs.edit', $FAQ->id)}}">{{$FAQ->questions}}</a></td>
                     <td>{{$FAQ->answers ? $FAQ->answers : 'No FAQname'}}</td>
                     <td>{{$FAQ->created_at->diffForHumans()}}</td>
                     <td>{{$FAQ->updated_at->diffForHumans()}}</td>
