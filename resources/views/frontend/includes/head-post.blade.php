@@ -15,9 +15,12 @@
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:alt" content="Portfolio foto van Silke Beirens van de partij Groen in Oostende" />
 
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="Silke Beirens" />
-    <meta property="twitter:image" content="{{  $post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Silke Beirens">
+    <meta name="twitter:creator" content="Silke Beirens">
+    <meta name="twitter:title" content="Portfolio pagina van Silke Beirens">
+    <meta name="twitter:description" content="Kom hier meer te weten over Silke Beirens">
+    <meta name="twitter:image" content="{{  $post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}">
 
 
     <title>Silke Beirens</title>
