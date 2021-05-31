@@ -2,6 +2,8 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class CreateUsersTable extends Migration
@@ -29,6 +31,25 @@ class CreateUsersTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
+
+        DB::table('users')->insert([
+            'name'=>'Thomas',
+            'email'=>'thomas.demeulenaere@hotmail.com',
+            'email_verified_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+            'photo_id'=> 1,
+            'password'=>bcrypt('@Skatemovies777'),
+            'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+            'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('users')->insert([
+            'name'=>'Admin',
+            'email'=>'silke@admin.be',
+            'email_verified_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+            'photo_id'=> 2,
+            'password'=>bcrypt('12345678'),
+            'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+            'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
     }
 
     /**

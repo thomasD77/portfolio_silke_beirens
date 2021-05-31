@@ -9,8 +9,8 @@
                     <p>Silke.Beirens@oostende.be</p>
                     <p>T 059 25 84 59</p>
                     <p>Graag contact opnemen? Stuur ons een e-mail.</p>
-
-                    <!-- Button trigger modal -->
+                    <a class="button rounded text-decoration-none text-white" href="mailto:thomas.demeulenaere@hotmail.com">Email Us</a>
+                   {{-- <!-- Button trigger modal -->
                     <button type="button" class="button rounded"  data-bs-toggle="modal" data-bs-target="#exampleModal">Email Us</button>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -50,7 +50,7 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
 
                 </div>
                 <div class="col-12 col-xl-3">

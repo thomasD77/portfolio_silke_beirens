@@ -91,16 +91,16 @@
                                                 {{ __('Login') }}
                                             </button>
 
-                                            @if (Route::has('password.request'))
+                                            {{--@if (Route::has('password.request'))
                                                 <a class="btn btn-link text-md-left text-dark" href="{{ route('password.request') }}">
                                                     {{ __('Forgot Your Password?') }}
                                                 </a>
-                                            @endif
+                                            @endif--}}
                                         </div>
                                     </div>
 
 
-                                    <hr>
+                                    {{--<hr>--}}
                                     @if(Session::has('login_message'))
                                         <p class="alert alert-success my-3">{{session('login_message')}}</p>
                                     @endif
@@ -115,14 +115,14 @@
                                 </form>
 
 
-                                <div class="form-group row">
+                                {{--<div class="form-group row">
                                     <div class="col-12">
                                         <div class="form-check d-flex">
                                             <p class="">Don't have a account yet? </p>
                                             <a href="{{ route('register') }}" class="ml-2 text-sm text-gray-700 underline text-dark">Register Here</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div>--}}
 
                             </div>
                         </div>

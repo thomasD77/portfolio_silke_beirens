@@ -17,17 +17,6 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         //
-        DB::table('users')->insert([
-            'name'=>'Thomas',
-            'email'=>'thomas.demeulenaere@hotmail.com',
-            'email_verified_at'=>Carbon::now()->format('Y-m-d H:i:s'),
-            'photo_id'=> 1,
-            'password'=>bcrypt(12345678),
-            'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
-            'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),
-        ]);
-
-        User::factory()->count(40)->create();
 
     }
 }

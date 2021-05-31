@@ -11,6 +11,7 @@ use App\Models\Address;
 use App\Models\Photo;
 use App\Models\Role;
 use App\Models\User;
+use Illuminate\Support\Carbon;
 use PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -57,6 +58,7 @@ class AdminUsersController extends Controller
             $user = new User();
             $user->name= $request->name;
             $user->email = $request->email;
+            $user->email_verified_at = Carbon::now()->format('Y-m-d H:i:s');
 
             if($file = $request->file('photo_id')){
                 $name = time(). $file->getClientOriginalName();

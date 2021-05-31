@@ -6,7 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmailsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmailsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_29_084036_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_29_084036_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_29_120015_create_photos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_29_120015_create_photos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_09_072257_create_permissions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_09_072257_create_permissions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/loginpage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/loginpage.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../onlinedatabase" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -247,7 +258,8 @@
       <workItem from="1622361338525" duration="171000" />
       <workItem from="1622361906450" duration="1628000" />
       <workItem from="1622401422911" duration="384000" />
-      <workItem from="1622404950039" duration="1425000" />
+      <workItem from="1622404950039" duration="2374000" />
+      <workItem from="1622444202404" duration="5960000" />
     </task>
     <servers />
   </component>
@@ -259,14 +271,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1619024356047" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620062080291">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1622449570850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1620062080291" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621922774252">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622449570850" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622447787047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1621922774252" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622447787047" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1619679913133" />
     <state x="1983" y="78" width="1164" height="811" key="dock-window-1" timestamp="1619543786595">
       <screen x="1920" y="0" width="1680" height="1010" />
@@ -276,10 +288,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1620062207837" />
-    <state x="2391" y="178" width="735" height="832" key="search.everywhere.popup" timestamp="1622361444203">
-      <screen x="1920" y="0" width="1680" height="1010" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622450453599">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622361379150" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622450453599" />
     <state x="2391" y="178" width="735" height="832" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1622361444203" />
   </component>
 </project>
