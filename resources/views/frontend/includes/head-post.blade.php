@@ -12,6 +12,7 @@
     <meta property="og:url" content="{{ Request::url() }}"/>
     <meta property="og:image" content="{{  $post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" />
     <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="{{  $post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" />
     <meta property="og:site_name" content="GROEN" />
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:alt" content="Portfolio foto van Silke Beirens van de partij Groen in Oostende" />
