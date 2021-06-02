@@ -1,4 +1,4 @@
-@extends('layouts.admin_template')
+@extends('layouts.admin_crud_template')
 @section('content')
     @include('admin.includes.form_error')
     <h1><span class="badge mosgroen display-1 shadow"><i class="fas fa-users mr-2"></i>Create User</span></h1>
@@ -26,5 +26,4 @@
     <div class="form-group">
     {!! Form::submit('Create user',['class'=>'btn btn-dark']) !!}
     {!! Form::close() !!}
-
 @stop

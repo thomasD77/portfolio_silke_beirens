@@ -21,8 +21,6 @@
     <meta name="twitter:title" content="Portfolio pagina van Silke Beirens">
     <meta name="twitter:description" content="Kom hier meer te weten over Silke Beirens">
     <meta name="twitter:image" content="{{  $post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}">
-
-
     <title>Silke Beirens</title>
     <!-- Styles -->
     <link href="{{ asset('css/front-app.css') }}" rel="stylesheet">

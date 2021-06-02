@@ -41,9 +41,5 @@ class DatabaseSeeder extends Seeder
             NewslettersTableSeeder::class,
             FAQSTableSeeder::class,
         ]);*/
-        $this->call([
-            PostsTableSeeder::class,
-            PostCategoriesTableSeeder::class,
-        ]);
     }
 }

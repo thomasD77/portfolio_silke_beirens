@@ -27,6 +27,7 @@ class UserRequest extends FormRequest
             //
             'name'=>'required|string',
             'email'=>'required|email|unique:users',
+            'password' => 'required'
         ];
     }
 
@@ -34,6 +35,7 @@ class UserRequest extends FormRequest
         return[
             'email.required'=> 'E-mail is required',
             'name.required' => 'Name is required',
+            'password.required' => 'Password is required',
         ];
     }
 }

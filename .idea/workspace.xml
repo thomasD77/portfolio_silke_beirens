@@ -5,6 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostCategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UsersEditRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UsersEditRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/Oceanreef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/aboutduiker.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/animal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/arrownext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/arrowprev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/deepwater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/delivery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/diving.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/divingok.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/divingshoplogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/dolfijn.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/droogpakken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikcomputer.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duiker.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duiker2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duiker3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikflessen.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikgear.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikhandschoenen.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikhorloge.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duiklamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikmasker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikmateriaal.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikpak.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikpak3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikpak4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikpak5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikpak6.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/duikzak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/femalediver.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/garmin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/header2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/jumper.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/trimvest.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/vissen.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frontend/zwemvinnen.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/footer_crud.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/footer_crud.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/form_error.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/form_error.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/head-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/head-post.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +210,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio_natacha" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -247,7 +294,13 @@
       <workItem from="1622361906450" duration="1628000" />
       <workItem from="1622401422911" duration="384000" />
       <workItem from="1622404950039" duration="2374000" />
-      <workItem from="1622444202404" duration="8675000" />
+      <workItem from="1622444202404" duration="9292000" />
+      <workItem from="1622454664515" duration="989000" />
+      <workItem from="1622458465429" duration="25000" />
+      <workItem from="1622473560873" duration="783000" />
+      <workItem from="1622527044816" duration="33000" />
+      <workItem from="1622566839302" duration="2128000" />
+      <workItem from="1622649448972" duration="1766000" />
     </task>
     <servers />
   </component>
@@ -263,10 +316,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622449570850" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622447787047">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622649582234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622447787047" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622649582234" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1619679913133" />
     <state x="1983" y="78" width="1164" height="811" key="dock-window-1" timestamp="1619543786595">
       <screen x="1920" y="0" width="1680" height="1010" />
@@ -276,10 +329,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1620062207837" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622450627758">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622651217539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622450627758" />
-    <state x="2391" y="178" width="735" height="832" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1622361444203" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622651217539" />
+    <state x="2391" y="178" width="735" height="832" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1622569162373" />
   </component>
 </project>

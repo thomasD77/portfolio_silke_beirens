@@ -6,10 +6,10 @@
                 <div class="col-12 col-xl-3 mb-5">
                     <h3 class="text-uppercase mb-4">Silke Beirens</h3>
                     <p>Schepen Mens & Milieu</p>
-                    <p>Silke.Beirens@oostende.be</p>
+                    <p>silke.beirens@oostende.be</p>
                     <p>T 059 25 84 59</p>
                     <p>Graag contact opnemen? Stuur ons een e-mail.</p>
-                    <a class="button rounded text-decoration-none text-white" href="mailto:thomas.demeulenaere@hotmail.com">Email Us</a>
+                    <a class="button rounded text-decoration-none text-white" href="mailto:silke.beirens@oostende.be">Email Us</a>
                    {{-- <!-- Button trigger modal -->
                     <button type="button" class="button rounded"  data-bs-toggle="modal" data-bs-target="#exampleModal">Email Us</button>
                     <!-- Modal -->

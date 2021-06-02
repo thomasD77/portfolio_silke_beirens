@@ -9,13 +9,12 @@
             <div class="col-md-8 offset-md-2">
                 @if(Session::has('contactform_message'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         <h4 class="alert-heading">Bedankt!</h4>
                         <p class="alert-success">Het contactforumlier staat klaar voor behandeling.</p>
                         <hr>
                         <p class="mb-0 alert-success">{{session('contactform')}}</p>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidde="true">&times;</span>
-                        </button>
+
                     </div>
                 @endif
             </div>

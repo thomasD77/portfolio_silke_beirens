@@ -18,7 +18,7 @@ class AdminPostCategoriesController extends Controller
     public function index()
     {
         //
-        $postcategories = PostCategory::withTrashed()->paginate(10);
+        $postcategories = PostCategory::withTrashed()->latest()->paginate(10);
         return view('admin.postcategories.index', compact('postcategories'));
     }
 
