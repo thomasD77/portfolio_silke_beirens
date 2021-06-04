@@ -27,6 +27,7 @@ class PostRequest extends FormRequest
             //
             'title'=>'required',
             'body'=>'required',
+            'postcategories' => 'required'
         ];
     }
 
@@ -34,6 +35,7 @@ class PostRequest extends FormRequest
         return[
             'title.required'=> 'Title is required!',
             'body.required'=>'Description is required',
+            'postcategories.required' => 'Please make a category for this post first'
         ];
     }
 }
