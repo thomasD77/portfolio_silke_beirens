@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="" />
+    <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -254,6 +257,12 @@
       <workItem from="1622649448972" duration="2710000" />
       <workItem from="1622827237275" duration="991000" />
       <workItem from="1622829278678" duration="115000" />
+      <workItem from="1622829698978" duration="84000" />
+      <workItem from="1622870018227" duration="11000" />
+      <workItem from="1622873607568" duration="1766000" />
+      <workItem from="1623052125907" duration="6000" />
+      <workItem from="1623054265570" duration="360000" />
+      <workItem from="1624353329822" duration="19000" />
     </task>
     <servers />
   </component>
@@ -269,10 +278,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622449570850" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622649582234">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1623056601311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622649582234" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1623056601311" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622870027557" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1619679913133" />
     <state x="1983" y="78" width="1164" height="811" key="dock-window-1" timestamp="1619543786595">
       <screen x="1920" y="0" width="1680" height="1010" />
@@ -282,10 +292,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1620062207837" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622829345847">
+    <state x="431" y="145" width="672" height="679" key="search.everywhere.popup" timestamp="1623054274576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622829345847" />
-    <state x="2391" y="178" width="735" height="832" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1622827595985" />
+    <state x="431" y="145" width="672" height="679" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1623054274576" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1622829754395" />
+    <state x="2391" y="178" width="735" height="832" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1622876966208" />
   </component>
 </project>

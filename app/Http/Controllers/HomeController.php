@@ -32,7 +32,7 @@ class HomeController extends Controller
         $timeNow = Carbon::now()->toDateString();
         $posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(3)->get();
         $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
-        return view('coming_soon', compact('posts', 'footer_posts'));
+        return view('frontend.home', compact('posts', 'footer_posts'));
     }
 
 
@@ -44,7 +44,7 @@ class HomeController extends Controller
         $products = Promo::findOrFail($id)->products()->with(['photo', 'user', 'tags'])->paginate(10);
         $promoToDay = Promo::findOrFail(1)->products()->with(['photo', 'user', 'tags'])->first();
         $promotrends = Promo::findOrFail(7)->products()->limit(3)->with(['photo', 'user', 'tags'])->limit(3)->get();
-        return view ('coming_soon',  compact('products', 'promos' , 'promoToDay', 'promotrends'));
+        return view ('frontend.home',  compact('products', 'promos' , 'promoToDay', 'promotrends'));
 
     }
 
