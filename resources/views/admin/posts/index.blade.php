@@ -28,7 +28,6 @@
             <th scope="col">DateForPost</th>
             <th scope="col">Deleted</th>
             <th scope="col">Action</th>
-
         </tr>
         </thead>
 
@@ -37,7 +36,11 @@
             @foreach($posts as $post)
                 <tr>
                     <td>{{$post->id}}</td>
+                    @if($post->deleted_at == null)
                     <td><a href="{{route('posts.edit', $post->id)}}">{{$post->title}}</a></td>
+                    @else
+                        <td>{{$post->title}}</td>
+                    @endif
                     <td>
                         <img class="rounded" height="62" width="62" src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
                     </td>

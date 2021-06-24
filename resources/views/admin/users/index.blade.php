@@ -11,7 +11,6 @@
     @endif
     <p>Displaying {{$users->count()}} of {{ $users->total() }} user(s).</p>
 
-
     <table class="table table-striped">
         <thead>
         <tr>
@@ -23,9 +22,6 @@
             <th scope="col">Created</th>
             <th scope="col">Updated</th>
             <th scope="col">Deleted</th>
-
-
-
         </tr>
         </thead>
         <tbody>
@@ -37,10 +33,14 @@
                     <td>
                         <img class="rounded-circle" height="62" width="62" src="{{$user->photo ? asset('images/users') . $user->photo->file : 'http://placehold.it/62x62'}}" alt="{{$user->name}}">
                     </td>
+                    @if($user->deleted_at == null)
                     <td><a href="{{route('users.edit', $user->id)}}">{{$user->name}}</a></td>
+                    @else
+                    <td>{{$user->name}}</td>
+                    @endif
                     <td>{{$user->email ? $user->email : 'No email'}}</td>
                     <td>@foreach($user->roles as $role)
-                          <span class="badge badge-pill badge-success">{{$role->name}}</span>
+                          <span class="badge badge-pill badge-success p-2">{{$role->name ? $role->name : 'No Role' }}</span>
                       @endforeach</td>
                     <td>{{$user->created_at->diffForHumans()}}</td>
                     <td>{{$user->updated_at->diffForHumans()}}</td>

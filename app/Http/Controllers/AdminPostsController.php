@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Events\PostSoftDelete;
+use App\Http\Requests\PostEditRequest;
 use App\Http\Requests\PostRequest;
 use App\Models\Category;
 use App\Models\Photo;
@@ -132,7 +133,7 @@ class AdminPostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(PostRequest $request, $id)
+    public function update(PostEditRequest $request, $id)
     {
         //
 
