@@ -31,7 +31,7 @@
                     @if($FAQ->deleted_at == null)
                     <td><a href="{{route('faqs.edit', $FAQ->id)}}">{{$FAQ->questions}}</a></td>
                     @else
-                        <td>{{$FAQ->questions}}</td>
+                        <td>{{$FAQ->questions ? $FAQ->questions : 'No Questions' }}</td>
                     @endif
                     <td>{{$FAQ->answers ? $FAQ->answers : 'No Answer'}}</td>
                     <td>{{$FAQ->created_at->diffForHumans()}}</td>
