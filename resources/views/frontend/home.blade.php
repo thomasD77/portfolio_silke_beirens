@@ -12,12 +12,11 @@
     <section class="container-fluid my-5">
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </h1>
-                <p>Autem deserunt eius expedita minus
-                    nesciunt repudiandae temporibus voluptas. Atque consequuntur cupiditate error in iusto labore optio,
-                    quibusdam repellat soluta totam ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Accusantium alias aliquam beatae blanditiis, cum doloremque dolorum, earum excepturi fugiat hic id
-                    inventore, odio officia quasi quidem sunt totam voluptate voluptates? </p>
+                <h1>Silke Beirens...  </h1>
+                <h5>Mensen die mij kennen, volgen mij al langer via verschillende sociale media kanalen maar met deze
+                    website wil ik graag een ruimer publiek aanspreken en een plek creëren waar je rustig kan scrollen
+                    en meer informatie kan vinden over mijn politiek engagement en de verschillende beleidsthema’s
+                    waarrond ik werk in Oostende, dé stad aan zee. </h5>
             </div>
         </div>
     </section>

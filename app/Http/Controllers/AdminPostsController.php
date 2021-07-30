@@ -149,7 +149,7 @@ class AdminPostsController extends Controller
             // Image Resize
             $path =  'images/posts/' . $name;
             $image = Image::make($path);
-            $image->resize(800,550);
+            $image->resize(700,550);
             $image->save('images/posts/' . $name);
             $photo = Photo::create(['file'=>$name]);
             $post->photo_id = $photo->id;

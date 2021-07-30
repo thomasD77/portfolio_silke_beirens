@@ -7,7 +7,7 @@
             <div class="row">
                     <div class="entry col-12 my-5">
                         <div class="grid-inner">
-                            <div class="entry-image mb-3">
+                            <div class="entry-image mb-3 ">
                                 <img class="img-fluid" src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
                             </div>
                             <div class="entry-title d-flex justify-content-between">
