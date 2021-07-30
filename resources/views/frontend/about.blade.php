@@ -47,20 +47,32 @@
                         lekkere koffie met een vleugje melk en zelfgebakken wafels.</p>
 
                     <h2 id="waarom" class="my-3">Waarom in de Politiek gestapt?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.</p>
+                    <p>Ik werd niet als politieker geboren, wel met een groot rechtvaardigheidsgevoel. Ondernemend en
+                        strijdvaardig. Ambitieus, zeggen anderen me.
+                        <br><br>
+                        Ik had al altijd een mening over heel veel zaken, ga graag in discussie maar had schrik om me
+                        politiek te engageren, om kleur te bekennen. Ik ging ervan uit dat dit mij zou nekken op de
+                        arbeidsmarkt.
+                        <br><br>
+                        Toen Wouter De Vriendt en Natacha Waldmann mij in november 2017 uitnodigden voor een verkennend
+                        gesprek in Mommy’s Bastards in Oostende, voelde ik dat het goed zat. Die avond staat in mijn
+                        geheugen gegrift. Het was een kantelmoment.
+                        <br><br>
+                        Onder de slogan ‘Een nieuw begin’ voerden we in 2018 een succesvolle campagne, met
+                        bestuursdeelname tot gevolg.
+                        <br><br>
+                        Ik werd - tot mijn eigen grote verbazing - schepen. Wel met de mooiste portefeuille: Mens en
+                        Milieu.
+                        <br><br>
+                        Dé grote uitdagingen van deze eeuw liggen nu in onze handen, wij zijn dé generatie politici die
+                        het verschil zullen moeten maken op het vlak van klimaat, natuurbehoud én samenleven en daar wil
+                        ik samen met mijn team volop werk van maken.
+                        <br><br>
+                        Mijn bevoegdheden zijn bovendien een mooie combinatie van mijn verschillende werk-en
+                        levenservaringen tot nu toe.
+                        <br><br>
+                        Volg mijn avonturen en realisaties op de voet via mijn website en sociale media. Heb je vragen
+                        of opmerkingen, aarzel niet mij te contacteren.</p>
                 </div>
             </div>
             <div class="col-md-8 offset-md-2 mb-5">
