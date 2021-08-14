@@ -12,7 +12,7 @@
     <section class="container-fluid my-5">
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <h1>Silke Beirens...  </h1>
+                <h1>Silke Beirens...  2</h1>
                 <h5>Mensen die mij kennen, volgen mij al langer via verschillende sociale media kanalen maar met deze
                     website wil ik graag een ruimer publiek aanspreken en een plek creëren waar je rustig kan scrollen
                     en meer informatie kan vinden over mijn politiek engagement en de verschillende beleidsthema’s
