@@ -7,7 +7,7 @@
         @include('admin.includes.form_error')
         <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\ContactController@store')}}" method="post">
             @csrf
-            <div class="row g-recaptcha" data-sitekey="6LeMQE4cAAAAAPEBoXmD3fPN-MZX4FFC9wFSfQvq">
+            <div class="row">
                 <div class="col-12 col-lg-4">
                     <input id="input1" name="name" type="text" class="form-control my-1 styleinput shadow" placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
@@ -23,6 +23,7 @@
                     <textarea id="input4" name="message" class="form-control textfield shadow" rows="10" cols="50" placeholder="Your message here" aria-label="With textarea"></textarea>
                 </div>
             </div>
+            <div class="g-recaptcha" data-sitekey="6LeMQE4cAAAAAPEBoXmD3fPN-MZX4FFC9wFSfQvq"></div>
             <div class="row">
                 <div class="col-12 col-lg-4 offset-lg-4 d-flex justify-content-center mb-5">
                     <button type="submit" class="button rounded">Send to Us</button>
