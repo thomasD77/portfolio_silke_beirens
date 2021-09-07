@@ -4,6 +4,20 @@
         <p class="text-center mb-lg-4">Vul hierbeneden ons contactformulier in. <br> Na het behandelen van uw bericht nemen
         we contact met u op.</p>
 
+        @php
+            if (isset($_POST['submit'])) {
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $subject = $_POST['subject'];
+                $message = $_POST['message'];
+                $secretKey = "6LeMQE4cAAAAAGZDfvcmDyD7C_cw1Bzd8FfZ7N-T";
+                $responseKey = $_POST['g-recaptcha-response'];
+                $userIP = $_SERVER['REMOTE_ADDR'];
+
+                $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$userIP";
+                $response = file_get_contents($url);
+            }
+        @endphp
         @include('admin.includes.form_error')
         <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\ContactController@store')}}" method="post">
             @csrf
