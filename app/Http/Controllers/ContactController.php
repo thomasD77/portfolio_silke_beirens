@@ -41,15 +41,27 @@ class ContactController extends Controller
     {
         //
 
-        $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'message' => $request->message,
-            'subject' => $request->subject,
-        ];
+        if ($_POST['g-recaptcha-response'] != "") {
+            $secret = '6LeMQE4cAAAAAGZDfvcmDyD7C_cw1Bzd8FfZ7N-T';
 
-        Prospect::create($data);
-        Session::flash('contactform_message');
+            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+            $responseData = json_decode($verifyResponse);
+
+            if ($responseData->success) {
+
+
+                $data = [
+                    'name' => $request->name,
+                    'email' => $request->email,
+                    'message' => $request->message,
+                    'subject' => $request->subject,
+                ];
+                Prospect::create($data);
+                Session::flash('contactform_message');
+            }
+}
+
+
         return redirect()->back();
     }
 

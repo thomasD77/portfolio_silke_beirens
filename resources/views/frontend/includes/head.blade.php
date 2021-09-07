@@ -16,9 +16,7 @@
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:alt" content="Portfolio foto van Silke Beirens van de partij Groen in Oostende" />
 
-
     <title>Silke Beirens</title>
     <!-- Styles -->
     <link href="{{ asset('css/front-app.css') }}" rel="stylesheet">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>

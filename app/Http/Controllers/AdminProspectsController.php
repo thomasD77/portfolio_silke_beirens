@@ -21,7 +21,7 @@ class AdminProspectsController extends Controller
     public function index()
     {
         //
-        $prospects = Prospect::withTrashed()->paginate(10);
+        $prospects = Prospect::withTrashed()->latest()->paginate(10);
         return view ('admin.prospects.index', compact('prospects'));
     }
 
