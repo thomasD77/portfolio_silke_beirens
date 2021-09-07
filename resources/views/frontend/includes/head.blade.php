@@ -20,4 +20,5 @@
     <title>Silke Beirens</title>
     <!-- Styles -->
     <link href="{{ asset('css/front-app.css') }}" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>

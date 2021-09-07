@@ -7,7 +7,7 @@
         @include('admin.includes.form_error')
         <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\ContactController@store')}}" method="post">
             @csrf
-            <div  class="row">
+            <div class="row g-recaptcha" data-sitekey="6LeMQE4cAAAAAPEBoXmD3fPN-MZX4FFC9wFSfQvq">
                 <div class="col-12 col-lg-4">
                     <input id="input1" name="name" type="text" class="form-control my-1 styleinput shadow" placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
