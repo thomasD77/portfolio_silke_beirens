@@ -47,7 +47,10 @@
         @endif
         </tbody>
     </table>
-    {{$postcategories->links()}}
+
+    <div class="d-flex justify-content-center mt-5">
+        {{$postcategories->links()}}
+    </div>
 @stop
 
 

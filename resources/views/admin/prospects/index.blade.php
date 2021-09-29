@@ -56,6 +56,9 @@
         @endif
         </tbody>
     </table>
+    <div class="d-flex justify-content-center mt-5">
+        {{$prospects->links()}}
+    </div>
 @stop
 
 

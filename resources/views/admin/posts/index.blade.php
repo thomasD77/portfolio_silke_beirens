@@ -108,7 +108,10 @@
         @endif
         </tbody>
     </table>
-    {{$posts->links()}}
+
+    <div class="d-flex justify-content-center mt-5">
+        {{$posts->links()}}
+    </div>
 @stop
 
 

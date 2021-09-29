@@ -54,7 +54,11 @@
         @endif
         </tbody>
     </table>
-    {{$FAQS->links()}}
+
+    <div class="d-flex justify-content-center mt-5">
+        {{$FAQS->links()}}
+    </div>
+
 @stop
 
 

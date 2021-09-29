@@ -17,7 +17,7 @@ class AdminFAQSController extends Controller
     public function index()
     {
         //
-        $FAQS = FAQ::withTrashed()->paginate(10);
+        $FAQS = FAQ::withTrashed()->latest()->paginate(10);
         return view ('admin.FAQS.index', compact('FAQS'));
     }
 

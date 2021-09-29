@@ -50,6 +50,8 @@
     <div id="contactforumlier_anchor"></div>
     @include('frontend.includes.contactformulier')
 
+
+    @if($FAQS)
     <section id="FAQ" class="row my-5">
         <div class="col-md-8 offset-md-2">
             <div class="row">
@@ -76,5 +78,6 @@
             </div>
         </div>
     </section>
+    @endif
 
 @stop

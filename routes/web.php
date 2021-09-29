@@ -34,7 +34,7 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Route::get('/promo/selector/{id}', 'App\Http\Controllers\HomeController@promo_selector')->name('productsPerPromo');
 
 
-Route::get('/login_admin', [App\Http\Controllers\LoginController::class, 'index'])->name('loginpage');
+Route::get('/cms', [App\Http\Controllers\LoginController::class, 'index'])->name('loginpage');
 Route::get('/shop', 'App\Http\Controllers\FrontendController@index')->name('shop');
 Route::get('/products/brand/{id}', 'App\Http\Controllers\FrontendController@productsPerBrand')->name('products-Per-Brand');
 Route::get('/products/category/{id}', 'App\Http\Controllers\FrontendController@productsPerCategory')->name('products-Per-Category');

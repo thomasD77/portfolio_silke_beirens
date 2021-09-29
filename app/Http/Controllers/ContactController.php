@@ -59,8 +59,7 @@ class ContactController extends Controller
                 Prospect::create($data);
                 Session::flash('contactform_message');
             }
-}
-
+        }
 
         return redirect()->back();
     }
