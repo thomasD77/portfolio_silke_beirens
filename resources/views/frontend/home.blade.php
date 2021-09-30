@@ -78,10 +78,17 @@
     </section>
 
 
+{{--    <div id="socials" class="container my-5">--}}
+{{--        <h2 class="text-center my-4">My Instagram Feed</h2>--}}
+{{--        <div id="instafeed-container" class="row gallery"></div>--}}
+{{--    </div>--}}
+
     <div id="socials" class="container my-5">
         <h2 class="text-center my-4">My Instagram Feed</h2>
-        <div id="instafeed-container" class="row gallery"></div>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-5f62f7c7-a375-4b47-8efb-32c1e6894f2c"></div>
     </div>
+
 @stop
 
 
