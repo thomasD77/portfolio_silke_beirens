@@ -23,6 +23,10 @@
                     <textarea id="input4" name="message" class="form-control textfield shadow" rows="10" cols="50" placeholder="Your message here" aria-label="With textarea"></textarea>
                 </div>
             </div>
+            <div class="form-group form-check ml-3">
+                <input type="checkbox" class="form-check-input" name="GDPR">
+                <label class="form-check-label" for="exampleCheck1">Ik ga akkoord met GDPR</label>
+            </div>
             <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LeMQE4cAAAAAPEBoXmD3fPN-MZX4FFC9wFSfQvq"></div>
             <div class="row">
                 <div class="col-12 col-lg-4 offset-lg-4 d-flex justify-content-center mb-5">

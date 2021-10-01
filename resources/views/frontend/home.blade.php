@@ -55,14 +55,15 @@
                         <h2 class="text-uppercase text-white">Stay Connected</h2>
                         <p class="text-white">Subscribe to our newsletter and stay up to date with <br>
                             latest offers and upcoming trends</p>
+                        <p class="text-white">* akkoord voor GDPR bij versturen E-mail gegevens</p>
                     </div>
                     <div class="col-md-6">
                         <div id="form" class="input-group mb-3">
                             <form class="d-flex flex-column" action="{{action('App\Http\Controllers\AdminReadersController@store')}}" method="post">
                                 @csrf
                                 <div class="d-flex">
-                                   <input id="inputmail" name="newsletter" type="email" class="form-control mr-0 rounded" placeholder="E-mail...">
-                                    <button class="my-lg-0 py-1 btn-dark rounded" type="submit" id="btnnewsletter">Send</button>
+                                        <input id="inputmail" name="newsletter" type="email" class="form-control mr-0 rounded" placeholder="E-mail...">
+                                        <button class="my-lg-0 py-1 btn-dark rounded" type="submit" id="btnnewsletter">Send</button>
                                 </div>
                                 @if(Session::has('readers_message'))
                                     <div class="alert alert-dark alert-dismissible fade show mt-4" role="alert">

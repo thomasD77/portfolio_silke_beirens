@@ -49,13 +49,14 @@ class ContactController extends Controller
 
             if ($responseData->success) {
 
-
                 $data = [
                     'name' => $request->name,
                     'email' => $request->email,
                     'message' => $request->message,
                     'subject' => $request->subject,
+                    'GDPR' => $request->GDPR,
                 ];
+
                 Prospect::create($data);
                 Session::flash('contactform_message');
             }

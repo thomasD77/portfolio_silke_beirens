@@ -16,5 +16,6 @@ class Prospect extends Model
         'email',
         'subject',
         'message',
+        'GDPR',
     ];
 }

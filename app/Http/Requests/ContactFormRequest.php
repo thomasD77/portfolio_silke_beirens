@@ -29,6 +29,7 @@ class ContactFormRequest extends FormRequest
             'subject'=>'required',
             'email'=>'required',
             'message'=>'required',
+            'GDPR'=>'required',
         ];
     }
 
@@ -38,6 +39,7 @@ class ContactFormRequest extends FormRequest
             'name.required'=>'Name is required',
             'message.required'=>'Message is required',
             'subject.required'=>'Subject is required',
+            'GDPR.required'=>'GDPR is required',
         ];
     }
 }
