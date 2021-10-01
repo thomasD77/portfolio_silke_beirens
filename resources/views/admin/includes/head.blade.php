@@ -20,4 +20,8 @@
             menubar: false
         });
     </script>
+
+    <link rel="icon"
+          type="image/jpg"
+          href="{{ asset('images/frontend/favicon.png') }}" />
 </head>

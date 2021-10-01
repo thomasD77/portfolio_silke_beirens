@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_package_v0.16/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_package_v0.16/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_package_v0.16/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_package_v0.16/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_package_v0.16/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_package_v0.16/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon_package_v0.16/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_package_v0.16/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/head.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,17 +184,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/frontend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/frontend" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="C:\wamp64.2\www\portfolio_silke\app\Http\Requests" />
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\views" />
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\layouts" />
-      <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\frontend\includes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\frontend" />
@@ -314,7 +311,7 @@
       <workItem from="1633074541064" duration="5000" />
       <workItem from="1633080227501" duration="22000" />
       <workItem from="1633080283408" duration="561000" />
-      <workItem from="1633106347092" duration="2559000" />
+      <workItem from="1633106347092" duration="3812000" />
     </task>
     <servers />
   </component>
