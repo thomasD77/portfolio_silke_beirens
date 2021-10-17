@@ -56,21 +56,21 @@ class FrontendController extends Controller
 
     public function index_about(){
         $timeNow = Carbon::now()->toDateString();
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         return view('frontend.about', compact('footer_posts'));
     }
 
     public function index_blog(){
         $timeNow = Carbon::now()->toDateString();
         $posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->paginate(6);
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         return view('frontend.blog', compact('posts', 'footer_posts'));
     }
 
 
     public function index_post($slug){
         $timeNow = Carbon::now()->toDateString();
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         $post = Post::where('slug', $slug)->first();
         return view('frontend.post', compact('post', 'footer_posts'));
     }
@@ -79,7 +79,7 @@ class FrontendController extends Controller
 
     public function index_contact(){
         $timeNow = Carbon::now()->toDateString();
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         $FAQS = FAQ::all();
         return view('frontend.contact', compact('FAQS', 'footer_posts'));
     }

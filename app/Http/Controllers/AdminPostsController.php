@@ -67,16 +67,10 @@ class AdminPostsController extends Controller
             $post->body = Purifier::clean($request->body);
             $post->postcategory_id = $request->postcategories[0];
 
-
             if($file = $request->file('photo_id')){
                 $name = time(). $file->getClientOriginalName();
                 $file->move('images/posts', $name);
 
-                // Image Resize
-                $path =  'images/posts/' . $name;
-                $image = Image::make($path);
-                $image->resize(700,550);
-                $image->save('images/posts/' . $name);
                 $photo = Photo::create(['file'=>$name]);
                 $post->photo_id = $photo->id;
             }
@@ -84,18 +78,8 @@ class AdminPostsController extends Controller
 
             $post->save();
 
-
-
-
             return redirect('admin/posts');
-
         }
-
-
-
-
-
-
 
 
 

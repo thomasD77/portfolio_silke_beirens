@@ -27,9 +27,11 @@
                 <h2 class="text-center my-4">Meest recente nieuws </h2>
                 @foreach($posts as $post)
                     <div class="col-md-4 card border-0 my-4" style="background-color:#f8fafc" >
+                        <a href="{{route('post', $post->slug)}}">
                         <img class="mt-3 img-fluid"  src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
-                        <div class="card-title border-none">
-                            <h2 class="mt-2"><a class="text-decoration-none text-dark" href="">{{Str::limit($post->title, 35)}}</a></h2>
+                        </a>
+                            <div class="card-title border-none">
+                            <h2 class="mt-2"><a class="text-decoration-none text-dark" href="{{route('post', $post->slug)}}">{{Str::limit($post->title, 35)}}</a></h2>
                         </div>
                         <div class="card-body px-0  pt-0 ">
                             <p class="mb-2">{{substr(strip_tags($post->body),0,200)}}{{strlen(strip_tags($post->body))
@@ -38,7 +40,7 @@
                             <div><i class="far fa-calendar-alt me-2"></i>{{$post->created_at->diffForHumans()}}</div>
                         </div>
                         <div class="card-footer border-0 px-0" style="background-color:#f8fafc">
-                            <a  href="{{route('post', $post->slug)}}" class="btn btn-dark">Read More</a>
+                            <a  href="{{route('post', $post->slug)}}" class="btn btn-dark">Lees meer</a>
                         </div>
                     </div>
                 @endforeach
@@ -52,9 +54,8 @@
             <div class="col-md-10 offset-md-1">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2 class="text-uppercase text-white">Stay Connected</h2>
-                        <p class="text-white">Subscribe to our newsletter and stay up to date with <br>
-                            latest offers and upcoming trends</p>
+                        <h2 class="text-uppercase text-white">Blijf op de hoogte</h2>
+                        <p class="text-white mb-0">Schrijf u in op onze nieuwsbrief. </p>
                         <p class="text-white">* akkoord voor GDPR bij versturen E-mail gegevens</p>
                     </div>
                     <div class="col-md-6">
@@ -62,8 +63,8 @@
                             <form class="d-flex flex-column" action="{{action('App\Http\Controllers\AdminReadersController@store')}}" method="post">
                                 @csrf
                                 <div class="d-flex">
-                                        <input id="inputmail" name="newsletter" type="email" class="form-control mr-0 rounded" placeholder="E-mail...">
-                                        <button class="my-lg-0 py-1 btn-dark rounded" type="submit" id="btnnewsletter">Send</button>
+                                        <input id="inputmail" name="newsletter" type="email" class="form-control mr-0 rounded" placeholder="uw e-mail...">
+                                        <button class="my-lg-0 py-1 btn-dark rounded" type="submit" id="btnnewsletter">verstuur</button>
                                 </div>
                                 @if(Session::has('readers_message'))
                                     <div class="alert alert-dark alert-dismissible fade show mt-4" role="alert">
@@ -85,7 +86,7 @@
 {{--    </div>--}}
 
     <div id="socials" class="container my-5">
-        <h2 class="text-center my-4">My Instagram Feed</h2>
+        <h2 class="text-center my-4">Mijn Instagram Feed</h2>
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-5f62f7c7-a375-4b47-8efb-32c1e6894f2c"></div>
     </div>

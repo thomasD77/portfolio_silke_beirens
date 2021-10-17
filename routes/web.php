@@ -59,9 +59,9 @@ Route::get('/removeItemList/{id}','App\Http\Controllers\FrontendController@remov
 
 
 Route::get('/productPage/{id}', 'App\Http\Controllers\FrontendController@productpage')->name('productpage');
-Route::get('/about', 'App\Http\Controllers\FrontendController@index_about')->name('about');
+Route::get('/about', 'App\Http\Controllers\FrontendController@index_about')->name('over');
 Route::get('/contact', 'App\Http\Controllers\FrontendController@index_contact')->name('contact');
-Route::get('/blog', 'App\Http\Controllers\FrontendController@index_blog')->name('blog');
+Route::get('/blog', 'App\Http\Controllers\FrontendController@index_blog')->name('nieuws');
 Route::get('/post/{slug}', 'App\Http\Controllers\FrontendController@index_post')->name('post');
 
 // Facebook login

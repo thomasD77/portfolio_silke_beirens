@@ -7,10 +7,9 @@
                 <div class="col-12 col-xl-3 mb-5">
                     <h3 class="text-uppercase mb-4">Silke Beirens</h3>
                     <p>Schepen Mens & Milieu</p>
-                    <p>silke.beirens@oostende.be</p>
                     <p>T 059 25 84 59</p>
-                    <p>Graag contact opnemen? Stuur ons een e-mail.</p>
-                    <a class="button rounded text-decoration-none text-white" href="mailto:silke.beirens@oostende.be">Email Us</a>
+                    <p>Graag contact opnemen? Stuur ons een bericht.</p>
+                    <a class="button rounded text-decoration-none text-white" href="{{route('contact', ["#contactforumlier_anchor"])}}">e-mail</a>
                     {{--<!-- Button trigger modal -->
                     <button type="button" class="button rounded"  data-bs-toggle="modal" data-bs-target="#exampleModal">Email Us</button>
                     <!-- Modal -->
@@ -54,19 +53,19 @@
                     </div>--}}
                 </div>
                 <div class="col-12 col-xl-3">
-                    <h3 class="mb-4">About Us</h3>
-                    <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Silke Beirens?</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('about', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('about', ["#bevoegdheden"])}}"><p>Wat zijn Silke haar bevoegdheden?</p></a>
+                    <h3 class="mb-4">Over</h3>
+                    <a class="text-decoration-none text-dark" href="{{route('over', ["#wie"])}}"><p>Wie is Silke Beirens?</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('over', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('over', ["#bevoegdheden"])}}"><p>Wat zijn Silke haar bevoegdheden?</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
-                    <h3 class="mb-4">Contact Us</h3>
+                    <h3 class="mb-4">Contact</h3>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact informatie</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#contactforumlier_anchor"])}}"><p>Contact formulier</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#FAQ"])}}"><p>FAQ</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
-                    <h3 class="mb-4">Blog</h3>
+                    <h3 class="mb-4">Nieuws</h3>
                     @foreach($footer_posts as $post)
                         <div class="row">
                             <div class="col-3 col-md-1 col-lg-3"><img class="img-fluid" src="{{asset('images/frontend/logo_footer_groen.jpg')}}" alt=""></div>
@@ -82,7 +81,7 @@
 
 <footer>
     <hr class=" m-0">
-    <p class="text-center py-2 m-0">Copyright &copy; 2021 | Silke Beirens</p>
+    <p class="text-center py-2 m-0">Copyright &copy; {{ \Carbon\Carbon::now()->year }} | Silke Beirens</p>
 </footer>
 <script src="{{ asset('js/share.js') }}"></script>
 <script src="{{asset('js/front-app.js')}}"></script>
