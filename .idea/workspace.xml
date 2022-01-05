@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c366756c-7d62-4920-a266-c777f82ba971" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/homepage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/wie is silke.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/contactformulier.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/contactformulier.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar_home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +200,7 @@
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/frontend" />
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\frontend" />
       <recent name="C:\wamp64.2\www\portfolio_silke\resources\views\layouts" />
     </key>
@@ -320,6 +332,14 @@
       <workItem from="1636271334543" duration="617000" />
       <workItem from="1636279926283" duration="135000" />
       <workItem from="1636987124586" duration="15000" />
+      <workItem from="1637003796998" duration="138000" />
+      <workItem from="1637073813481" duration="1276000" />
+      <workItem from="1637076065394" duration="136000" />
+      <workItem from="1637163407780" duration="341000" />
+      <workItem from="1637241228088" duration="577000" />
+      <workItem from="1637401313647" duration="418000" />
+      <workItem from="1641395520631" duration="2104000" />
+      <workItem from="1641397941695" duration="203000" />
     </task>
     <servers />
   </component>

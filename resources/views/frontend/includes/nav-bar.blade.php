@@ -15,13 +15,13 @@
                                 <a aria-current="page" class="nav-link active mx-2 pb-1" href="{{route('home')}}">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pb-1 mx-2" href="{{route('over')}}">OVER</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pb-1 mx-2" href="{{route('contact')}}">CONTACT</a>
+                                <a class="nav-link pb-1 mx-2" href="{{route('over')}}">WIE IS SILKE</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link pb-1 mx-2" href="{{route('nieuws')}}">NIEUWS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pb-1 mx-2" href="{{route('contact')}}">CONTACT</a>
                             </li>
                         </ul>
                     </div>

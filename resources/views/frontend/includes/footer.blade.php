@@ -54,9 +54,10 @@
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Over</h3>
-                    <a class="text-decoration-none text-dark" href="{{route('over', ["#wie"])}}"><p>Wie is Silke Beirens?</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('over', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('over', ["#bevoegdheden"])}}"><p>Wat zijn Silke haar bevoegdheden?</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('over', ["#begon"])}}"><p>Hoe het begon?</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('over', ["#carriere"])}}"><p>Carrière & gezin</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('over', ["#politiek"])}}"><p>Politiek</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('over', ["#toekomst"])}}"><p>Rechtvaardigheid & toekomst</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Contact</h3>

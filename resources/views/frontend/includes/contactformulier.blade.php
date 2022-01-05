@@ -1,8 +1,7 @@
 <div class="row">
     <div class="col-12 col-lg-8 offset-lg-2">
-        <h2 class="text-center mt-lg-5">Laat van u horen.</h2>
-        <p class="text-center mb-lg-4">Vul hierbeneden ons contactformulier in. <br> Na het behandelen van uw bericht nemen
-        we contact met u op.</p>
+        <h2 class="text-center mt-lg-5">Heb je een vraag?</h2>
+        <p class="text-center mb-lg-4">Dan kun je het formulier hieronder invullen. Ik contacteer je zo snel mogelijk.</p>
 
         @include('admin.includes.form_error')
         <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\ContactController@store')}}" method="POST">

@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 d-flex flex-column">
-                <img class="img-fluid " src="{{asset('images/frontend/Silke_psd.jpg')}}" alt="">
+                <img class="img-fluid " src="{{asset('images/frontend/homepage.jpg')}}" alt="">
         </div>
     </div>
 </div>
@@ -12,11 +12,25 @@
     <section class="container-fluid my-5">
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <h1>Silke Beirens...</h1>
-                <h5>Mensen die mij kennen, volgen mij al langer via verschillende sociale media kanalen maar met deze
-                    website wil ik graag een ruimer publiek aanspreken en een plek creëren waar je rustig kan scrollen
-                    en meer informatie kan vinden over mijn politiek engagement en de verschillende beleidsthema’s
-                    waarrond ik werk in Oostende, dé stad aan zee. </h5>
+                <h1> Hallo, ik ben Silke Beirens.</h1>
+                Een geëngageerde moeder, plusmoeder, echtgenote en schepen in Oostende,
+                de Stad aan Zee. In 2019 werd ik schepen voor Groen. Ik ben bevoegd voor
+
+                <ul>
+                    <li>energie en klimaat</li>
+                    <li>integratie en gelijke kansen</li>
+                    <li>internationale samenwerking</li>
+                    <li>natuur</li>
+                    <li>milieu</li>
+                    <li>kinderopvang</li>
+                    <li>strandreddingsdiensten</li>
+                    <li>dierenwelzijn</li>
+                    <li>landbouw & voedselstrategie</li>
+                </ul>
+
+                Ben je benieuwd naar mijn ambities en beleidsvisie? Wil je weten hoe ik samen met mijn team de toekomst
+                van Oostende vorm wil geven? Je leest er hier alles over, net als op mijn sociale mediakanalen. Met jouw
+                suggesties maak ik graag werk van een gezonde Stad aan Zee.
             </div>
         </div>
     </section>
