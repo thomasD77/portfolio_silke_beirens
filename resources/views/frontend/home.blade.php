@@ -13,24 +13,26 @@
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <h1> Hallo, ik ben Silke Beirens.</h1>
-                Een geëngageerde moeder, plusmoeder, echtgenote en schepen in Oostende,
-                de Stad aan Zee. In 2019 werd ik schepen voor Groen. Ik ben bevoegd voor
-
-                <ul>
+                <p style="font-size: 20px">
+                    Een geëngageerde moeder, plusmoeder, echtgenote en schepen in Oostende,
+                    de Stad aan Zee. In 2018 werd ik verkozen voor Groen. Ik ben bevoegd voor:
+                </p>
+                <ul style="font-size: 20px">
                     <li>energie en klimaat</li>
                     <li>integratie en gelijke kansen</li>
                     <li>internationale samenwerking</li>
                     <li>natuur</li>
                     <li>milieu</li>
                     <li>kinderopvang</li>
-                    <li>strandreddingsdiensten</li>
+                    <li>strandreddingsdienst</li>
                     <li>dierenwelzijn</li>
                     <li>landbouw & voedselstrategie</li>
                 </ul>
-
-                Ben je benieuwd naar mijn ambities en beleidsvisie? Wil je weten hoe ik samen met mijn team de toekomst
-                van Oostende vorm wil geven? Je leest er hier alles over, net als op mijn sociale mediakanalen. Met jouw
-                suggesties maak ik graag werk van een gezonde Stad aan Zee.
+                <p style="font-size: 20px">
+                    Ben je benieuwd naar mijn ambities en beleidsvisie? Wil je weten hoe ik samen met mijn team de toekomst
+                    van Oostende vorm wil geven? Je leest er hier alles over, net als op mijn sociale mediakanalen. Met jouw
+                    suggesties maak ik graag werk van een gezonde Stad aan Zee.
+                </p>
             </div>
         </div>
     </section>
