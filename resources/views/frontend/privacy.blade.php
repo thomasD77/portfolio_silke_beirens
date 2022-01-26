@@ -7,7 +7,7 @@
             <div class="col-md-10 offset-md-1">
                 <p class="mt-md-5">
                     WIE WE ZIJN
-                    Voorgestelde tekst: Ons websiteadres is: https://natachawaldmann.be.
+                    Voorgestelde tekst: Ons websiteadres is: https://silkebeirens.be
                     <br><br>
                     OPMERKINGEN
                     Voorgestelde tekst: wanneer bezoekers reacties achterlaten op de site, verzamelen we de gegevens getoond
