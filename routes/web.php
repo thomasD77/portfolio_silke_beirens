@@ -20,7 +20,7 @@ use Laravel\Socialite\Facades\Socialite;
 |
 */
 
-
+Route::get('/privacy', 'App\Http\Controllers\FrontendController@privacy')->name('privacy');
 Route::get('auth/{driver}', [SocialProviderController::class, 'redirectToProvider'])->name('login.social');
 Route::get('auth/{driver}/callback', [SocialProviderController::class, 'handleProviderCallback']);
 
@@ -107,7 +107,7 @@ Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function()
     Route::resource('/prospects', App\Http\Controllers\AdminProspectsController::class);
     Route::get('/', [App\Http\Controllers\AdminHomeController::class, 'index'])->name('admin.home');
     Route::resource('orders', App\Http\Controllers\AdminOrdersController::class);
-    Route::get('/privacy', 'App\Http\Controllers\FrontendController@privacy')->name('privacy');
+
 
 
     Route::resource('posts', App\Http\Controllers\AdminPostsController::class);
