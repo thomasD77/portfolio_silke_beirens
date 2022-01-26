@@ -135,11 +135,11 @@
 
 
         <!-- Sidebar Message -->
-        <div class="sidebar-card">
-            <i class="fas fa-question-circle fa-3x mb-2"></i>
-            <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>
-            <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>
-        </div>
+{{--        <div class="sidebar-card">--}}
+{{--            <i class="fas fa-question-circle fa-3x mb-2"></i>--}}
+{{--            <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>--}}
+{{--            <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>--}}
+{{--        </div>--}}
 
 
         @endcan
@@ -233,11 +233,11 @@
 
 
             <!-- Sidebar Message -->
-            <div class="sidebar-card">
-                <i class="fas fa-question-circle fa-3x mb-2"></i>
-                <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>
-                <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>
-            </div>
+{{--            <div class="sidebar-card">--}}
+{{--                <i class="fas fa-question-circle fa-3x mb-2"></i>--}}
+{{--                <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>--}}
+{{--                <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>--}}
+{{--            </div>--}}
 
 
     @endcan

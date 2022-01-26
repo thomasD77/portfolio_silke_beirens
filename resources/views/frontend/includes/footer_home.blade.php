@@ -64,6 +64,7 @@
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact informatie</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#contactforumlier_anchor"])}}"><p>Contact formulier</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#FAQ"])}}"><p>FAQ</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('privacy')}}"><p>Privacy Policy</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Nieuws</h3>

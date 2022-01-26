@@ -107,6 +107,9 @@ Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function()
     Route::resource('/prospects', App\Http\Controllers\AdminProspectsController::class);
     Route::get('/', [App\Http\Controllers\AdminHomeController::class, 'index'])->name('admin.home');
     Route::resource('orders', App\Http\Controllers\AdminOrdersController::class);
+    Route::get('/privacy', 'App\Http\Controllers\FrontendController@privacy')->name('privacy');
+
+
     Route::resource('posts', App\Http\Controllers\AdminPostsController::class);
     Route::post('post/date', 'App\Http\Controllers\AdminPostsController@datePost')->name('admin.datePost');
     Route::post('post/publish', 'App\Http\Controllers\AdminPostsController@publishPost')->name('admin.publishPost');

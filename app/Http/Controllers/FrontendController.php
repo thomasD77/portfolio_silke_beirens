@@ -41,6 +41,12 @@ class FrontendController extends Controller
         return view('frontend.shop', compact('brands', 'products', 'productcategories'));
     }
 
+    public function privacy(){
+        $timeNow = Carbon::now()->toDateString();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
+        return view('frontend.privacy', compact( 'footer_posts'));
+    }
+
 
 
 
